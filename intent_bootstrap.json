@@ -1,0 +1,226 @@
+
+{
+    "intents": [
+
+        {
+            "tag":          "greeting",
+            "questions":    ["Hi there", "How are you", "Hey", "Hey", "Hi", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "answers":      ["Hello", "Good to see you again", "Hi there, how can I help?", "Hi", "Hey", "You again"]
+        },
+
+
+        {
+            "tag":          "goodbye",
+            "questions"  :   ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "answers" :      ["See you!", "Have a nice day", "Bye! Come back again soon."]
+        },
+
+
+        {
+            "tag":          "thanks",
+            "questions"  :   ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "I am grateful"],
+            "answers" :      ["Welcome", "Thank you", "Happy to help!", "Any time!", "My pleasure", "Good to see you", "You're welcome"]
+        },
+
+ 
+        {
+            "tag":          "options",
+            "questions":    ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+            "answers":      ["I am like your virtual assistant, you can ask me any questions. If I know I will answer", "I can answer your questions related to machine learning or any general anser. Come on try me", "I can chat with you. Come on talk me buddy", "We both can chat and make each other happy"]
+        },
+
+ 	    {
+            "tag":          "question_01",
+            "questions":    ["What is Bootstrap?", "Meaning of Bootstrap", "What do you mean by bootstrap"],
+            "answers":      ["Bootstrap is a platform for web development based on a front-end framework. It is used to create exceptional responsive designs using HTML, and CSS. These templates are used for forms, tables, buttons, typography, models, tables, navigation, carousels and images. Bootstrap also has Javascript plugins, which are optional. Bootstrap is mostly preferred for developing mobile web applications."]
+        },
+
+
+        {
+            "tag":          "question_02",
+            "questions":   ["Explain why Bootstrap is preferred for website development.", "Importance of Bootstrap",  "What are the advantages of bootstrap", "Why will you use bootstrap?", "Why is bootstrap very famous"],
+            "answers":     ["open-source, Compatibility with all browsers, Responsive designs, Easy to use and fast", "Bootstrap has better features as compared to other web development platforms. It provides extensive browser support for almost every known browser such as Opera, Chrome, Firefox, Safari, etc. If you are well-acquainted with CSS and HTML, web development becomes easy on Bootstrap."]
+        },
+
+
+        {
+            "tag":          "question_03",
+            "questions":   ["What are the key components of Bootstrap?", "What is bootstrap made of", "What are the section of bootstrap", "List the components of bootstrap"],
+            "answers":     ["CSS, Scaffolding, Layout Components, JavaScripts Plugin Customize"]
+        },
+
+
+        {
+            "tag":          "question_05",
+            "questions":   ["What are Class loaders in Bootstrap?", "define class loader in Bootstrap", "What is a class-loader in Bootstrap"],
+            "answers":     ["A class loader is a part of JRE or Java Runtime Environment which loads Java classes"]
+        },
+
+
+        {
+            "tag":          "question_06",
+            "questions":   ["How many types of layout are available in Bootstrap?", "List the layouts in Bootstrap", "Mention some of the layout in bootstrap"],
+            "answers":     ["Fluid Layout- This layout is necessary for creating an app that is 100 % wider and covers all the screen width. Fixed Layout- It is used only for a standard screen (940px). Both layouts can be used for creating a responsive design."]
+        },
+
+
+        {
+            "tag":          "question_07",
+            "questions":    ["What is Bootstrap Grid System?", "What is a grid system in Bootstrap", "Meaning of grid system"],
+            "answers":      ["Bootstrap includes a responsive, mobile-first fluid grid system that appropriately scales up to 12 columns as the device or viewport size increases. It includes predefined classes for easy layout options, as well as powerful mixins for generating more semantic layouts."]
+        },
+
+
+        {
+            "tag":          "question_08",
+            "questions":   ["Why do we use Jumbotron in Bootstrap?", "What is a Jumbotron in Bootstrap?", "Advantages of Jumbotron in Bootstrap?"],
+            "answers":     ["Jumbotron is used for highlighting content in bootstrap. It could either be a slogan or probably a headline. It increases the heading size and gives a margin for the content of the landing page. To implement Jumbotron in a Bootstrap, you have to use:"]
+        },
+
+
+        {
+            "tag":          "question_09",
+            "questions":   ["What are the two codes used for code display in Bootstrap?", "Name the codes display in bootstrap"],
+            "answers":     ["There are two simple ways to display code in Bootstrap: <code> tag: This tag is used to display an inline code. <pre> tag: If you have a code with several lines or even a block element, you can display it using this."]
+        },
+
+
+        {
+            "tag":          "question_10",
+            "questions":   ["Explain the typography and links in Bootstrap.", "differences between typography and links in bootstrap", "Differenciate between  typography and links"],
+            "answers":     ["Bootstrap sets a basic global display (background), typography, and link styles. Basic Global display − It sets background-color: #fff; on the <body> element. Typography − This uses the @font-family-base, @font-size-base, and @line-height-base attributes as the typographic base. Link styles − It sets the global link color via attribute @link-color and applies link underlines only on :hover."]
+        },
+
+
+     	{
+            "tag":          "question_11",
+            "questions":    ["What is a progress bar in bootstrap?", "What do we use a progress bar for in bootstrap", "function of a progress bar in bootstrap"],
+            "answers":      ["Progress bar is used with HTML tag style in HTML element using <progress> keyword. In bootstrap we use html5 <progress> with CSS classes that have special features in bootstrap, that is only made for the progress bar."]
+        },
+
+
+        {
+            "tag":          "question_13",
+            "questions":   ["How do you make images responsive?", "How do you make images responsive?", "How can images be made responsive", "how can one achieve a responsive image in bootstrap"],
+            "answers":     ["Bootstrap allows to make the images responsive by adding a class .img-responsive to the <img> tag. This class applies max-width: 100%; and height: auto; to the image so that it scales nicely to the parent element."]
+        },
+
+        {
+            "tag":          "question_14",
+            "questions":    ["What is the difference between Bootstrap and Foundation?", "differentiate between Bootstrap and foundation", "bootstrap verse foundation"],
+            "answers":      ["Bootstrap (1). offers an unlimited number of UI elements. (2). Bootstraps uses pixels. (3). It encourages to design for both desktop and mobile. (4). Bootstrap support LESS as its preprocessor. Foundation (1). UI element options are very limited in numbers. (2). Foundation use REMs. (3). Foundation encourages to design mobile first. (4). It supports Sass and Compass as its preprocessor"]
+        },
+
+
+        {
+            "tag":          "question_15",
+            "questions":   ["What is Bootstrap collapsing elements?", "Why do we use Bootstrap collapsing elements", "Advantages of Bootstrap collapse element"],
+            "answers":     ["Bootstrap collapsing elements enable you to collapse any particular element without writing any JavaScript code or the accordion markup. To apply collapsing elements in bootstrap, you need to add data-toggle= “collapse” to the controller element along with a data-target or href to automatically assign control of a collapsible element. Also, you can use .collapse (options), .collapse (‘show’) or .collapse (‘hide’) for the same."]
+        },
+
+
+        {
+            "tag":          "question_16",
+            "questions":   ["Explain types of lists supported by Bootstrap.", "What are the types of lists in Bootstrap", "Different types of list in Bootstrap", "Why do we use list in Bootstrap"],
+            "answers":     ["Ordered lists − An ordered list is a list that falls in some sort of sequential order and is prefaced by numbers. Unordered lists − An unordered list is a list that doesn’t have any particular order and is traditionally styled with bullets. If you do not want the bullets to appear then you can remove the styling by using the class .list-unstyled. Definition lists − In this type of list, each list item can consist of both the <dt> and the <dd> elements. <dt> stands for definition term. Subsequently, the <dd> is the definition of the <dt>."]
+        },
+
+
+        {
+            "tag":          "question_17",
+            "questions":    ["Explain the uses of carousel plugin in Bootstrap", "What is Carousel plugin in Bootstrap", "Why do we use carousel plugin"],
+            "answers":      ["Carousel plugin in bootstrap is used to make sliders in the web pages or your site. There are several carousel plugins that are used in bootstrap to display large contents within a small space by adding sliders."]
+        },
+
+
+        {
+            "tag":          "question_18",
+            "questions":   ["What do you mean by Bootstrap well?", "What is Bootstrap well", "How will you define bootstrap well", "Define Bootstrap well"],
+            "answers":     ["Bootstrap well is nothing but a container that makes the content appear sunken. Sometimes it may also give an inset effect on the webpage. Thus, a developer can create a well and also wrap the content in the well with the help of <div> and class .well. The content would appear as per your wish."]
+        },
+
+
+        {
+            "tag":          "question_19",
+            "questions":   ["What is Bootstrap breadcrumb?", "Meaning of Boostrap breadcrumb", "Define Bootstrap breadcrumb"],
+            "answers":     ["Breadcrumbs are a great way to show hierarchy-based information for a site. In the case of blogs, breadcrumbs can show the dates of publishing, categories, or tags. They indicate the current page’s location within a navigational hierarchy."]
+        },
+
+        {
+            "tag":          "question_20",
+            "questions":   ["What is a Bootstrap Container?", "Define a bootstrap container", "Explain Bootstrap container"],
+            "answers":     ["A bootstrap container is a class which is useful and creates a central area within the page where our site content can be put within. The advantage of the bootstrap .container is that it is responsive and will place all our other HTML code."]
+        },
+
+
+ 	{
+            "tag":          "question_21",
+            "questions":    ["What are bootstrap alerts and how will you create them?", "How do you create a Bootstrap alert", "What is a bootstrap alert"],
+            "answers":      ["Bootstrap Alerts provide a way to style messages to the user. They provide contextual feedback messages for typical user actions. You can add an optional close icon to alert. Also, you can add a basic alert by creating a wrapper <div> and adding a class of .alert and one of the four contextual classes."]
+        },
+
+
+
+        {
+            "tag":          "question_23",
+            "questions":   ["What do you mean by column ordering in Bootstrap?", "What is ordering column in Bootstrap", "Explain column oredering in Bootstrap"],
+            "answers":     ["Column ordering is one of the most interesting features found in bootstrap. By using appropriate functions, the columns can be written easily and also in a defined order. You can also show them in another column. In order to change or alter the order of the column easily, the functions .col-md-push-* and .col-md-pull-* can be used."]
+        },
+
+        {
+            "tag":          "question_24",
+            "questions":    ["What Are Bootstrap Media Queries?", "Explain Bootstrap Media Query", "Why do use bootstrap media query"],
+            "answers":      ["Media Queries in Bootstrap allow you to move, show and hide content based on viewport size.  Here is an example to show the basic structure of Bootstrap grid:"]
+        },
+
+
+        {
+            "tag":          "question_25",
+            "questions":   ["What is Normalize in Bootstrap?", "Explain normalizing in Bootstrap", "Why is Bootstrap normalization useful"],
+            "answers":     ["Bootstrap uses Normalize to establish cross-browser consistency. Normalize.css is a modern, HTML5-ready alternative to CSS resets. It is a small CSS file that provides better cross-browser consistency in the default styling of HTML elements."]
+        },
+
+
+ 
+        {
+            "tag":          "question_27",
+            "questions":    ["Why do we use the affix plugin in Bootstrap?", "What a an affix plugin in Bootstrap", "Explain affix plugin in Bootstrap"],
+            "answers":      ["We use the affix plugin in Bootstrap for affixing a <div> to some certain location on a webpage. The plugin also allows toggling pinning on and off for the affixed <div>. Social icons are the most popular example of using the affix plugin in Bootstrap."]
+        },
+
+
+        {
+            "tag":          "question_28",
+            "questions":   ["What is the Bootstrap Panel?", "Meaning of Bootstrap panel", "Define Bootstrap panel", "When to use Bootstrap panel"],
+            "answers":     ["When there is a need for putting the contents in a bordered box with some padding around, the panel components are used. They can be created with the .panel class and content inside the panel consists of a .panel-body class. For creating a basic panel, you need to add class .panel to the <div> element and add class .panel-default to this element."]
+        },
+
+
+        {
+            "tag":          "question_29",
+            "questions":   ["What is Button group and which class is used for basic button group?"],
+            "answers":     ["Button groups allow multiple buttons to be stacked together on a single line. You can use this when you want to place items like alignment buttons together."]
+        },
+
+
+ 	{
+            "tag":          "question_31",
+            "questions":    ["What do you understand by the Bootstrap navbar? How will you create one?", "What is Bootstrap navbar", "Explain Bootstrap navbar"],
+            "answers":      ["One of the most prominent features of Bootstrap, a navbar is a responsive ‘meta’ component that serves as a navigation header for an application or website. There can be several navbars in an application or website."]
+        },
+
+
+        {
+            "tag":          "question_32",
+            "questions":   ["Is it possible to put a table within the Bootstrap panel?", "How to put a table in a Bootstrap panel", "How do we insert a table into a Bootstrap panel"],
+            "answers":     ["Yes, it is possible to put a table within a Bootstrap panel. Use the .table class within a panel to get a non-bordered table within the same."]
+        },
+
+
+        {
+            "tag":          "question_33",
+            "questions":   ["What are the labels in Bootstrap used for?", "importance of the labels in Bootstrap"],
+            "answers":     ["The Labels in Bootstrap are used for offering tips, counts, and other information that could help in marking up the web page."]
+        }
+    ]
+}

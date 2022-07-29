@@ -1,0 +1,275 @@
+
+
+{
+    "intents": [
+
+        {
+            "tag":          "greeting",
+            "questions":    ["Hi there", "How are you", "Hey", "Hey", "Hi", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "answers":      ["Hello", "Good to see you again", "Hi there, how can I help?", "Hi", "Hey", "You again"]
+        },
+
+
+        {
+            "tag":          "goodbye",
+            "questions"  :   ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "answers" :      ["See you!", "Have a nice day", "Bye! Come back again soon."]
+        },
+
+
+        {
+            "tag":          "thanks",
+            "questions"  :   ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "I am grateful"],
+            "answers" :      ["Welcome", "Thank you", "Happy to help!", "Any time!", "My pleasure", "Good to see you", "You're welcome"]
+        },
+
+ 
+        {
+            "tag":          "options",
+            "questions":    ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+            "answers":      ["I am like your virtual assistant, you can ask me any questions. If I know I will answer", "I can answer your questions related to machine learning or any general anser. Come on try me", "I can chat with you. Come on talk me buddy", "We both can chat and make each other happy"]
+        },
+
+ 	    {
+            "tag":          "question_01",
+            "questions":    ["What is the Box model in CSS? Which CSS properties are a part of it?", "What is a css box "],
+            "answers":      ["A rectangle box is wrapped around every HTML element. The box model is used to determine the height and width of the rectangular box. The CSS Box consists of Width and height (or in the absence of that, default values and the content inside), padding, borders, margin (1) Content. (2) Padding.. (3). Border (4). Margin"]
+        },
+
+
+        {
+            "tag":          "question_02",
+            "questions":     ["What are the advantages of using CSS?", "Why do we use CSS", "Benefits of using CSSS"],
+            "answers":      ["Separation of content from presentation - CSS provides a way to present the same content in multiple presentation formats in mobile or desktop or laptop. Easy to maintain - CSS, built effectively can be used to change the look and feel complete by making small changes. To make a global change, simply change the style, and all elements in all the web pages will be updated automatically."]
+        },
+
+
+        {
+            "tag":          "question_03",
+            "questions":     ["What are the limitations of CSS?", "What are the disadvanatages of CSS", "What are some of the challenges in using CSS"],
+            "answers":      ["Browser Compatibility: Some style selectors are supported and some are not. We have to determine which style is supported or not using the @support selector). There is no parent selector: Currently, Using CSS, you can’t select a parent tag."]
+        },
+
+        {
+            "tag":          "question_04",
+            "questions":    ["How to include CSS in the webpage?", "How can we integrate CSS in a website", "How to deploy CSS on a website"],
+            "answers":      ["1 - External Style Sheet: An external file linked to your HTML document: Using link tag, we can link the style sheet to the HTML page. 2 - Embed CSS with a style tag: A set of CSS styles included within your HTML page. 3 - Add inline styles to HTML elements(CSS rules applied directly within an HTML tag.): Style can be added directly to the HTML element using a style tag. "]
+       },
+
+
+        {
+            "tag":          "question_05",
+            "questions":     ["What are the different types of Selectors in CSS?", "What is a selector in CSS", "Name the various forms of CSS selector"],
+            "answers":      ["A CSS selector is the part of a CSS ruleset that actually selects the content you want to style. Different types of selectors are listed below."]
+        },
+
+
+        {
+            "tag":          "question_06",
+            "questions":     ["What is a CSS Preprocessor? What are Sass, Less, and Stylus? Why do people use them?", "Differentiate between CSS preprocessor, Sass, Less, and Stylus"],
+            "answers":      ["A CSS Preprocessor is a tool used to extend the basic functionality of default vanilla CSS through its own scripting language. It helps us to use complex logical syntax like – variables, functions, mixins, code nesting, and inheritance to name a few, supercharging your vanilla CSS."]
+        },
+
+
+    
+
+
+        {
+            "tag":          "question_08",
+            "questions":     ["Difference between reset vs normalize CSS?. How do they differ?", "What is reset different from normalize in CSS", "reset verse normalize in CSS"],
+            "answers":      ["Reset CSS: CSS resets aim to remove all built-in browser styling. For example margins, paddings, font-sizes of all elements are reset to be the same. Normalize CSS: Normalize CSS aims to make built-in browser styling consistent across browsers. It also corrects bugs for common browser dependencies."]
+        },
+
+
+        {
+            "tag":          "question_09",
+            "questions":     ["What is the difference between inline, inline-block, and block?", "Define inline, inline-block, and block", "What is inline, inline-block and block"],
+            "answers":      ["Block Element: The block elements always start on a new line. They will also take space for an entire row or width. List of block elements are <div>, <p>. Inline Elements: Inline elements don't start on a new line, they appear on the same line as the content and tags beside them. Some examples of inline elements are <a>, <span> , <strong>, and <img> tags. Inline Block Elements: Inline-block elements are similar to inline elements, except they can have padding and margins and set height and width values. "]
+        },
+
+
+        {
+            "tag":          "question_10",
+            "questions":     ["Is it important to test the webpage in different browsers?", "Why do we test our webpage on different browsers", "testing website on different browsers"],
+            "answers":      ["It’s most important to test a website in different browsers when you’re first designing it, or when making major changes. However, it’s also important to repeat these tests periodically, since browsers go through a lot of updates and changes."]
+        },
+
+
+ 	{
+            "tag":          "question_11",
+            "questions":    ["How do you specify units in the CSS?. What are the different ways to do it?", "What the the different units in CSS", "What are the measurements units in CSS"],
+            "answers":      ["There are different ways to specify units in CSS like px, em, pt, percentage (%). px(Pixel) gives fine-grained control and maintains alignment because 1 px or multiple of 1 px is guaranteed to look sharp. px is not cascade. em maintains relative size. you can have responsive fonts. Em, will cascade 1em is equal to the current font-size of the element or the browser default. If u sent font-size to 16px then 1em = 16px. The common practice is to set default body font-size to 62.5% (equal to 10px)."]
+        },
+
+
+        {
+            "tag":          "question_12",
+            "questions":     ["Does margin-top or margin-bottom have an effect on inline elements?", "Effect of margin-top and margin-bottom", "Differentitae between margin-top and margin-botton"],
+            "answers":      ["No, it doesn’t affect the inline elements. Inline elements flow with the contents of the page."]
+        },
+
+
+        {
+            "tag":          "question_13",
+            "questions":     ["What property is used for changing the font face?", "How do we change the font face", "What class do we use to change the font type"],
+            "answers":      ["font-family: 'Times New Roman', Times, serif;"]
+        },
+
+        {
+            "tag":          "question_14",
+            "questions":    ["What is a z-index, how does it function?", "define a z-index", "How does a z-index work", "What do we use z-index for"],
+            "answers":      ["z-index is used for specifying the vertical stacking of the overlapping elements that occur at the time of its positioning. It specifies the vertical stack order of the elements positioned that helps to define how the display of elements should happen in cases of overlapping."]
+        },
+
+
+        {
+            "tag":          "question_15",
+            "questions":     ["What are the properties of flexbox?", "What are the types of flexbox", "various forms of flex box"],
+            "answers":      ["flex-direction:, flex-wrap:, flex-flow:,  justify-content:,  align-items:, align-content:"]
+        },
+
+
+        {
+            "tag":          "question_16",
+            "questions":     ["What is cascading in CSS?", "What is cascading", "Define CSS cascading", "Explain CSS cascading"],
+            "answers":      ["“Cascading” refers to the process of going through the style declarations and defining weight or importance to the styling rules that help the browser to select what rules have to be applied in times of conflict. The conflict here refers to multiple rules that are applicable to a particular HTML element. In such cases, we need to let the browser know what style needs to be applied to the element. This is done by cascading down the list of style declarations elements."]
+        },
+
+
+        {
+            "tag":          "question_17",
+            "questions":    ["Explain CSS position property?", "What are the types of CSS positions properties", ""],
+            "answers":      [" Absolute:, Relative:, Fixed, Static, Sticky"]
+        },
+
+
+        {
+            "tag":          "question_18",
+            "questions":     ["When does DOM reflow occur?"],
+            "answers":      ["Reflow is the name of the web browser process for re-calculating the positions and geometries of elements in the document, for the purpose of re-rendering part or all of the document. "]
+        },
+
+
+        {
+            "tag":          "question_19",
+            "questions":     ["Different Box Sizing Property?"],
+            "answers":      ["Content-box:, Padding-box, Border-box:"]
+        },
+
+        {
+            "tag":          "question_20",
+            "questions":     ["Can you name the four types of @media properties?"],
+            "answers":      ["All, Screen, Print, Speech"]
+        },
+
+
+ 	{
+            "tag":          "question_21",
+            "questions":    ["What is the grid system?"],
+            "answers":      ["CSS Grid Layout is the most powerful layout system available in CSS. It is said to be a 2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional system."]
+        },
+
+
+        {
+            "tag":          "question_22",
+            "questions":     [" What does the :root pseudo-class refer to?"],
+            "answers":      ["The :root selector allows you to target the highest-level “parent” element in the DOM, or document tree. It is defined in the CSS Selectors Level 3 specification."]
+        },
+
+
+        {
+            "tag":          "question_23",
+            "questions":     ["What does Accessibility (a11y) mean?"],
+            "answers":      ["Accessibility refers to how software or hardware combinations are designed to make a system accessible to persons with disabilities, such as visual impairment, hearing loss, or limited dexterity."]
+        },
+
+        {
+            "tag":          "question_24",
+            "questions":    ["How do I restore the default value of a property?"],
+            "answers":      ["The keyword initial can be used to reset it to its default value"]
+        },
+
+
+        {
+            "tag":          "question_25",
+            "questions":     ["Difference between CSS grid vs flexbox?"],
+            "answers":      ["SS Grid Layout is a two-dimensional system, meaning it can handle both columns and rows. Grid layout is intended for larger-scale layouts which aren’t linear in design.Flexbox is largely a one-dimensional system (either in a column or a row). Flexbox layout is most appropriate to the components of an application."]
+        },
+
+
+        {
+            "tag":          "question_26",
+            "questions":     ["What does !important mean in CSS?"],
+            "answers":      ["The style is having the important will have the highest precedence and it overrides the cascaded property."]
+        },
+
+
+        {
+            "tag":          "question_27",
+            "questions":    ["What is specificity? How to calculate specificity?"],
+            "answers":      ["A process of determining which CSS rule will be applied to an element. It actually determines which rules will take precedence. Inline style usually wins then ID then the class value (or pseudo-class or attribute selector), the universal selector (*) has no specificity. ID selectors have a higher specificity than attribute selectors."]
+        },
+
+
+        {
+            "tag":          "question_28",
+            "questions":     ["How can you target h3 and h2 with the same styling?"],
+            "answers":      ["h2, h3 {color: red;}"]
+        },
+
+
+        {
+            "tag":          "question_29",
+            "questions":     ["Define contextual selectors."],
+            "answers":      ["In CSS, contextual selectors allow developers to specify styles of different parts of the document. Styles can be assigned directly to specific HTML tags or create independent classes and assign tags to them. "]
+        },
+
+
+
+ 	{
+            "tag":          "question_30",
+            "questions":    ["When should you use translate () instead of absolute positioning?"],
+            "answers":      ["Translate is a CSS transform value. On changing opacity or transform, browser reflow or repaint is not triggered. Transform requires the browser to create a GPU layer for elements but using the CPU changes absolutes positioning properties. Translate () is more efficient and results in shorter paint times. On using translate (), element occupies original space, unlike in changing absolute positioning. "]
+        },
+
+ 	{
+            "tag":          "question_31",
+            "questions":    ["What is meant by CSS working under the hood?"],
+            "answers":      ["When a browser displays a document, it combines style information and document content. The document is processed in two stages: Conversion of HTML and CSS into Document Object Model DOM displays contents of browser"]
+        },
+
+
+        {
+            "tag":          "question_32",
+            "questions":     ["Differentiate between logical and physical tags."],
+            "answers":      ["Logical tags mainly focus on content and are older as compared to physical ones. Logical ones do not find much usage in presentation and terms of aesthetics. At the same time, physical ones find application in presentation. "]
+        },
+
+
+        {
+            "tag":          "question_33",
+            "questions":     ["Tell us something about CSS3."],
+            "answers":      ["CSS3 is divided into modules and is supported by almost every browser. Many graphics-related characteristics are introduced in CSS3 like box-shadow, Border-radius, and flexbox. A user can create precise multiple background images using properties like background-position, background-repeat, and background-image styles. "]
+        },
+
+        {
+            "tag":          "question_34",
+            "questions":    ["What are CSS image scripts?"],
+            "answers":      ["A group of images placed into one image is a CSS image script. It can reduce load time and project multiple images into a single web page."]
+        },
+
+
+        {
+            "tag":          "question_35",
+            "questions":     ["What are the properties of flexbox?"],
+            "answers":      ["The properties of flexbox are flex-direction, wrap, flow, content, and align-items, and content."]
+        },
+
+
+        {
+            "tag":          "question_36",
+            "questions":     ["Tell us about the use of the CSS Box Model.", "What is a CSS Box Model", "Define CSS Box Model"],
+            "answers":      ["The CSS Box model is a box binding HTML element that includes padding, border, margin, and the actual content. With the box model, we get the authority to add a border all around elements and define space between elements. "]
+        }
+    ]
+}

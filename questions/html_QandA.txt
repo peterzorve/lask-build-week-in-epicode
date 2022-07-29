@@ -1,0 +1,1502 @@
+1. What is HTML?
+
+Answer:
+
+HTML is the abbreviation for Hypertext Markup Language. It is the typical documents’ markup language for developing web pages to display on the web browser. The extensions used to save HTML pages are .html and .htm.
+
+2. What is a Tag in HTML?
+
+Answer:
+
+In an HTML page, tags used are to place the content and format the pages. They always defined between (<) and (>) symbols. For example, <h1>text</h1>.
+
+An opening tag must be preceded with a closing tag and indicated with a ‘/’ symbol.
+
+A tag instructs the browser to format the HTML. Tags have many uses, such as changing the appearance of text, displaying a graphic, or linking another page.
+
+Read: HTML Developer Salary in India: For Freshers & Experienced
+
+3. What is the key difference between HTML Elements and Tags?
+
+Answer:
+
+This is one of the most asked HTML interview questions.
+
+HTML Elements.  The sections of the web page, such as a paragraph, an image, or a link is an element, and an element has a certain way of execution. For example, the link is used to be clicked, and the text boxes can be used to input text.HTML Tags.  HTML elements communicate with the browser how to represent the text and become HTML tags when enclosed within angular brackets <>.
+
+4. If you want to display some HTML data in a table in tabular format, which HTML tags will you use?
+
+Answer:
+
+The HTML has a specific tag, i.e., the table tag to display data in tabular form. Below is the list of the HTML tags used to display data in tabular form in HTML:
+
+Tag
+
+Description
+
+<table>
+
+For defining a table.
+
+<caption>
+
+For mentioning a caption to the table.
+
+<tr>
+
+For defining a row in a table.
+
+<td>
+
+For defining a cell in a table.
+
+<th>
+
+For defining a header cell in a table.
+
+<tbody>
+
+For grouping the body’s content in a table.
+
+<col>
+
+For specifying the column properties for each column of the table.
+
+5. What are Attributes in HTML?
+
+Answer:
+
+An additional attribute is given to each tag to alter the behavior of the tag. Attributes are defined directly after the tag name, inside the angular brackets. They appear in opening tags and can never appear in closing tags.
+
+For example:
+
+You can define an attribute for the <input> tag, such as a text field, checkbox, radio button, or many more ways.
+
+Also Read: Javascript Interview Questions
+
+6. What is an Anchor tag in HTML?
+
+Answer:
+
+An anchor tag is used to link two sections, web pages, or website templates in HTML.
+
+Its format is:
+
+<a href=”#” target=”link”></a>
+
+Where ‘href’ is an attribute of the anchor tag used to identify the sections in a document, the ‘link’ is defined in the target attribute, which is to be linked.
+
+7. What are Lists in HTML?
+
+Answer:
+
+HTML lists are used to group a set of related items in lists. It is defined with an <li> tag.
+
+Some commonly used HTML lists:
+
+    Ordered List (HTML tag: <ol>)
+    Unordered List (HTML tag: <ul>)
+    Description List (HTML tag: <dl>)
+    Menu List (HTML tag: <menu>)
+    Directory List (HTML tag: <dir>)
+
+8. Define HTML Layout.
+
+Answer:
+
+An HTML web page is arranged in a specific layout (format). Here are the sections of an HTML webpage to specify the different parts of a webpage:
+
+Source
+
+The primary sections of the layout are:
+
+    Header to define a document or a section header.
+    Main content where the entire web page content is included.
+    Footer to define a document or a section footer.
+
+There are also sections such as articles and the navigation bar that are the parts of a layout.
+
+Learn more: Top 10 Fun CSS Project Ideas & Topics For Beginners
+
+9. What are Forms in HTML?
+
+Answer:
+
+Forms are used to collect the user information when they are filled, and details are provided to save into the database.
+
+Source
+
+10. What is the Use of Comments in HTML?
+
+Answer:
+
+Comments are used in an HTML document to make important notes and help developers mention any modification to be incorporated afterward. They are not displayed in the browser when the code is executed. A comment is always written in between the ‘—‘ symbol at the beginning and end of the angular brackets.
+
+Syntax:
+
+<!—‘Comment’ !–>
+
+Five Additional HTML Interview Questions and Answers
+
+11. What is HTML5?
+
+Answer:
+
+HTML5 is the improved HTML version released in 2014 by the World Wide Web consortium. Nowadays, every employer wants to put this as one of the HTML interview questions.
+
+It has set forth the following new characteristics to be learned by professionals:
+
+    DOCTYPE declaration: To declare the HTML document type to instruct the web browser about the markup language.
+    Main: The main tag defines the primary section in the document related to the central content of a document with a <main> tag.
+    Section: It is used to define specific sections in a document such as a chapter, header, footer, or any other section, and is specified with the <section> tag.
+    Header: The header tag defines the title or heading of a document or its section. It is specified with the <header> tag.
+    Footer: The footer tag defines the section of a document that contains information such as copyright or author’s information. It is designated with the <footer> tag.
+    Article: The article tag represents an independent or self-contained part of the content of a document with the tag <article>.
+
+12. What is Semantic HTML?
+
+Answer:
+
+Semantic HTML is one style of coding, where the tags convey the meaning of the text. HTML uses semantics to reinforce the semantics or purpose of the content.
+
+For Example:
+
+<b> </b> and <i> </i> tags which are used to bold and italic statements in HTML are replaced with <strong></strong> and <em></em> tags in semantic HTML. 
+
+This is because they represent formatting and provide no meaning or structure.
+
+13. What is an Image Map?
+
+Answer:
+
+An Image map lets you link different web pages with a single image. It is represented with the <map> tag. Every employer expects the applicant to know about this, and this has been one of the most commonly asked HTML interview questions.
+
+14. Why is the Embed Tag Used in HTML?
+
+Answer:
+
+An Embed Tag is used for including a Video or Audio in an HTML Document. A source of audio or video file to be displayed on the webpage is defined within an Embed tag as:
+
+<EMBED> Source </EMBED>.
+
+15. What is a ‘Marquee’ Tag in HTML?
+
+Answer:
+
+You can put scrolling text with a Marquee tag. With the help of this tag, an image or text can be scrolled up, down, left, or right.
+
+The text which is scrolled is defined within the <marquee>……</marquee> tag.
+
+Also Read: Full Stack Interview Questions
+
+Learn Software Courses online from the World’s top Universities. Earn Executive PG Programs, Advanced Certificate Programs, or Masters Programs to fast-track your career.
+Conclusion
+
+We have tried our best to get you well equipped with HTML concepts presenting ‘10+5’ HTML interview questions in this article with the hope that they will help you in your interview preparations.
+
+For more knowledge on HTML, you can find the carefully crafted upGrad’s Executive PG Program in Full-stack Software Development designed for working professionals, including 500+ hours of rigorous training, 9+ projects and assignments, practical hands-on projects, and job assistance with top firms.
+What is front-end web development?
+
+Front-end development is the part of web development that involves the building of elements such as HTML, CSS, and JavaScript. Front-end developers specialize in improving and polishing the user's experience on the website. Front-end developers use HTML, CSS and JavaScript to communicate with the user. This communication is done through web design, graphics, and interactivity. Front-end developers are responsible for the user's first impression and experience of a website. Good web design is crucial to good front-end development. A good front-end developer is one that is able to develop websites that are both functional and easy to use.
+What is the use of HTML in web-development?
+
+HTML (Hypertext Markup Language) is the markup language used to create web pages. It is the most common language used to display content on the web. Whether you realize it or not, you are probably using HTML every day. HTML can be used to display text, images, animations, sound and even video. HTML is made up of tags, which are surrounded by angle brackets. Tags are used to describe a certain piece of information.
+How does HTML and CSS work together?
+
+HTML and CSS work together to build webpages. HTML (Hypertext Markup Language) is the structural code behind most webpages. HTML is what creates the layout of the webpage, and creates the various headers, footers, text, and images you see when you view a page. CSS (Cascading Style Sheets) is applied on top of the HTML and allows you to modify the look and feel of the HTML structure. It's important to note that when you edit the HTML, you can't see the changes in the CSS due to the separation, but you will see the changes if you view the page in a different browser.
+Want to share this article?
+Prepare for a Career of the Future
+Apply Now for Executive PG Program in Full Stack Development
+Leave a comment
+
+Your email address will not be
+
+
+
+HTML Interview Questions
+Q1. What is HTML?
+
+HTML stands for Hyper Text Markup Language. It is a language of the World Wide Web. It is a standard text formatting language which is used to create and display pages on the Web. HTML makes the text more interactive and dynamic. It can turn text into images, tables, links. HTML pages are saved by adding .html or .html in web page name.
+Q2. What is the difference between HTML elements and tags?
+Elements	Tags
+
+The element is an individual component of the HTML web page or document. It represents semantics or meaning. For example, the title element represents the title of the document.
+	
+
+It is the root of the HTML document which is used to specify that the document is HTML. For example, the Head tag is used to contain all the head element in the HTML file.
+Q3. What are Attributes and how do you use them?
+
+Each tag has additional attributes that change the way the tag behaves or is displayed. For example, a <input> tag has a type attribute, which you can use to specify whether it’s a text field, checkbox, radio button or one of many more options.
+Attributes are specified directly after the name of the tag, inside the two angled brackets. They should only ever appear in opening tags or in self-closing tags. But, they can never be in closing tags.
+
+Example:
+1
+2
+3
+4
+5
+6
+	
+<!-- Text field -->
+<input type="text" />
+<!-- Checkbox -->
+<input type="checkbox" />
+<!-- Radio button -->
+<input type="radio" value="on" />
+Q4. What is the difference between a block-level element and an inline element?
+Block	Inline
+A block-level element is drawn as a block that stretches to fill the full width available to it i.e, the width of its container and will always start on a new line.
+Elements that are block-level by default: <div>, <img>, <section>, <form>, <nav>.	Inline elements are drawn where they are defined and only take up space that is absolutely needed. The easiest way to understand how they work is to look at how text flows on a page.
+Examples of elements that are inline by default: <span>, <b>, <strong>, <a>, <input>.
+Q5. When are comments used in HTML?
+
+To understand the code easily, you can add code comments to your HTML document. These are not displayed in the browser, but they help you in leaving notes for yourself and other developers as to what a section of HTML is for. The start of the comment is denoted by <!– and the end is marked by — >. Anything in the middle will be completely ignored, even if it contains valid HTML.
+
+For example:
+1
+2
+3
+	
+<!-- This is a comment! -->
+<!-- Comments can span multiple lines too -->
+<!-- This part is ignored in the browser -->
+Q6. What are the HTML tags used to display the data in the tabular form?
+
+The list of HTML tags used to display data in the tabular form include:
+Tag	Decsription
+
+<table>
+	
+
+It defines a table
+
+<tr>
+	
+
+This tag defines a row in a table
+
+<th>
+	
+
+It defines a header cell in a table
+
+<td>
+	
+
+This is used to define a cell in a table
+
+<caption>
+	
+
+It defines the table caption
+
+<colgroup>
+	
+
+It specifies a group of one or more columns in a table for formatting
+
+<col>
+	
+
+This is used with <colgroup> element to specify column properties for each column
+
+<tbody>
+	
+
+This tag is used to group the body content in a table.
+
+<thead>
+	
+
+It is used to group the header content in a table
+
+<tfooter>
+	
+
+It is used to group the footer content in a table
+Q7. How to create a Hyperlink in HTML?
+
+The HTML provides an anchor tag to create a hyperlink that links one page to another page. These tags can appear in any of the following ways:
+
+    Unvisited link – It is displayed, underlined and blue.
+    Visited link – It is displayed, underlined and purple.
+    Active link – It is displayed, underlined and red.
+
+The syntax of Hyperlink in HTML is:
+1
+	
+<a href = "..........."> Link Text </a>
+Q8. Name some common lists that are used when designing a page.
+
+There are many common lists used for design a page. You can choose any or a combination of the following list types:
+
+    Ordered list – The ordered list displays elements in a numbered format. It is represented by <ol> tag.
+    Unordered list – The unordered list displays elements in a bulleted format. It is represented by <ul> tag.
+    Definition list – The definition list displays elements in definition form like in a dictionary. The <dl>, <dt> and <dd> tags are used to define description list.
+
+Q9. What is semantic HTML?
+
+Semantic HTML is a coding style. It is the use of HTML markup to reinforce the semantics or meaning of the content. For example: In semantic HTML <b> </b> tag is not used for bold statement as well as <i> </i> tag is used for italic. Instead of these we use <strong></strong> and <em></em> tags.
+Q10. How to create a nested webpage in HTML?
+
+The HTML iframe tag is used to display a nested webpage. In other words, it represents a webpage within a webpage. The HTML <iframe> tag defines an inline frame. For example:
+1
+2
+3
+4
+5
+6
+7
+8
+	
+<!DOCTYPE html>
+<html>
+<body>
+<h2>HTML example</h2>
+Use the height and width attributes to specify the size of the iframe:
+<iframe src="<a href="https://www.edureka.co/">https://www.edureka.co/</a>" height="300" width="400"></iframe>
+</body>
+</html>
+Q11. What is an image map?
+
+An image map is used for linking many different web pages using a single image. It is represented by <map> tag. You can define shapes in images that you want to include as part of an image mapping.
+Q12. Does a hyperlink only apply to text?
+
+No, hyperlinks can be used both on texts and images. The HTML anchor tag defines a hyperlink that links one page to another page. The “href” attribute is the most important attribute of the HTML anchor tag.
+
+Syntax:
+1
+	
+<a href = "..........."> Link Text </a>
+Q13. What is a Style Sheet?
+
+A style sheet is used to build a consistent, transportable, and well-designed style template. You can add these templates on several different web pages. It describes the look and formatting of a document written in the markup language.
+Q14. Explain the layout of HTML.
+
+HTML layout specifies a way in which the web page is arranged. Every website has a specific layout to display content in a specific manner. Following are different HTML elements which are used to define the different parts of a webpage:
+
+HTML-Structure- HTML Interview questions - edureka
+
+    <header>: It is used to define a header for a document or a section.
+    <nav>: This defines a container for navigation links
+    <section>: It is used to define a section in a document
+    <article>: This is used to define an independent, self-contained article
+    <aside>: It is used to define content aside from the content
+    <footer>: It is used to define a footer for a document or a section
+
+Q15. What is a marquee?
+
+Marquee is used for the scrolling text on a web page. It scrolls the image or text up, down, left or right automatically. You should put the text which you want to scroll within the <marquee>……</marquee> tag.
+Q16. What are the tags used to separate a section of texts?
+
+There are three tags that can be used to separate the texts:
+
+    <br> tag – Usually <br> tag is used to separate the line of text. It breaks the current line and conveys the flow to the next line
+    <p> tag – This contains the text in the form of a new paragraph.
+    <blockquote> tag – It is used to define a large quoted section. If you have a large quotation, then put the entire text within <blockquote>……….</blockquote> tag.
+
+Q17. What is the difference between DIV and SPAN in HTML?
+
+The difference between span and div is that a span element is in-line and usually used for a small chunk of HTML inside a line,such as inside a paragraph. Whereas, a div or division element is block-line which is equivalent to having a line-break before and after it and used to group larger chunks of code.
+
+Example:
+1
+2
+3
+	
+<div id="HTML">
+This is <span class="Web Dev">interview</span>
+</div>
+Q18. What is the purpose of using alternative texts in images?
+
+The purpose of using alternative texts is to define what the image is about. During an image mapping, it can be confusing and difficult to understand what hotspots correspond to a particular link. These alternative texts come in action here and put a description at each link which makes it easy for users to understand the hotspot links easily.
+Course Curriculum
+Full Stack Web Developer Masters Program Course
+
+Q19. How to create a new HTML element?
+
+You can create new elements for the document in the following way:
+1
+2
+3
+	
+<script>
+document.createElement﴾"myElement"﴿
+</script>
+
+It can be also be used in the HTML as:
+1
+	
+<myElement>hello edureka!</myElement>
+Q20. Is the <!DOCTYPE html> tag considered as a HTML tag?
+
+No, the <!DOCTYPE html> declaration is not an HTML tag.
+
+There are many type of HTML, such as, HTML 4.01 Strict, HTML 4.01 Transitional, HTML 4.01 Frameset, XHTML 1.0 Strict, XHTML 1.0 Transitional, XHTML 1.0 Frameset, XHTML 1.1 etc. So, <!DOCTYPE html> is used to instruct the web browser about the HTML page.
+Q21. Why is a URL encoded in HTML?
+
+An URL is encoded to convert non-ASCII characters into a format that can be used over the Internet because a URL is sent over the Internet by using the ASCII character-set only. If a URL contains characters outside the ASCII set, the URL has to be converted. The non-ASCII characters are replaced with a “%” followed by hexadecimal digits.
+Q22. What is the use of an iframe tag?
+
+An iframe is used to display a web page within a web page.
+
+Syntax:
+1
+	
+<iframe src="URL"></iframe>
+
+Example:
+1
+	
+<iframe src="demo_iframe.html" width="200px" height="200px"></iframe>
+
+Target to a link:
+1
+	
+<iframe src="<a href="http://www.edureka.co">http://www.edureka.co</a>" name="iframe_a"></iframe>
+Q23. What are the entities in HTML?
+
+The HTML character entities are used as a replacement for reserved characters in HTML. You can also replace characters that are not present on your keyboard by entities. These characters are replaced because some characters are reserved in HTML.
+Q24. Can you create a multi-colored text on a web page?
+
+Yes, we can create a multi-colored text on a web page.  To create a multicolor text, you can use <font color =”color”> </font> for the specific texts that you want to color.
+Q25. How to make a picture of a background image of a web page?
+
+To make a picture a background image on a web page, you should put the following tag code after the </head> tag.
+1
+	
+<body background = "image.gif">
+
+Here, replace the “image.gif” with the name of your image file which you want to display on your web page.
+Q26. What is the use of a span tag? Explain with example.
+
+The span tag is used for following things:
+
+    For adding color on text.     To add background on text.     Highlight any color text
+
+Example:
+1
+2
+3
+	
+<span style="color:#ffffff;">
+In this page we use span.
+</span>
+Q27. What is the advantage of collapsing white space?
+
+White spaces are a blank sequence of space characters, which is treated as a single space character in HTML. Because the browser collapses multiple spaces into a single space, you can indent lines of text without worrying about multiple spaces. This enables you to organize the HTML code into a much more readable format.
+Q28. Is there any way to keep list elements straight in an HTML file?
+
+By using indents, you can keep the list elements straight. If you indent each sub nested list in further than the parent list, you can easily determine the various lists and the elements that it contains.
+Q29. Explain The Key Differences Between LocalStorage And SessionStorage Objects.
+
+The key differences between localStorage and sessionStorage objects are as follows:
+
+    The localStorage object stores the data without an expiry date. However, sessionStorage object stores the data for only one session.
+    In the case of a localStorage object, data will not delete when the browser window closes. However, the data gets deleted if the browser window closes, in the case of sessionStorage objects.
+    The data in sessionStorage is accessible only in the current window of the browser. But, the data in the localStorage can be shared between multiple windows of the browser.
+
+Q30. When is it appropriate to use frames?
+
+Frames can make navigating a site much easier. If the main links to the site are located in a frame that appears at the top or along the edge of the browser, the content for those links can be displayed in the remainder of the browser window.
+Q31. How to insert a picture into a background image of a web page?
+
+To insert a picture into the background image, you need to place a tag code after the </head> tag in the following way:
+1
+	
+<body background = “image.gif”>
+
+Now, replace image.gif with the name of your image file. This will take the picture and make it the background image of your web page.
+Q32. What happens if you open the external CSS file in a browser?
+
+When you try to open the external CSS file in a browser, the browser cannot open the file, because the file has a different extension. The only way to use an external CSS file is to reference it using <link/> tag within another HTML document.
+Programming & Frameworks Training
+Q33. What is the hierarchy that is being followed when it comes to style sheets?
+
+If a single selector includes three different style definitions, the definition that is closest to the actual tag takes precedence. Inline style takes priority over embedded style sheets, which takes priority over external style sheets.
+Q34. How do you create text on a webpage that allows you to send an email when clicked?
+
+To change the text into a clickable link to send an email, you need to use the mailto command within the href tag. You can write it in the following way:
+1
+	
+<a href=”mailto:youremailaddress”>text to be clicked</a>
+Q35. How are active links different from normal links?
+
+The default color for normal and active links is blue. Some browsers recognize an active link when the mouse cursor is placed over that link. Whereas, others recognize active links when the link has the focus. Those that don’t have a mouse cursor over that link is considered a normal link.
+Q36. What are the different tags to separate sections of text?
+
+The <br> tag is one way to separate the lines of text. There are other tags like the <p> tag and <blockquote> tag that are also used to separate sections of text.
+Q37. Are there instances where the text will appear outside of the browser?
+
+By default, the text is wrapped to appear within the browser window. However, if the text is part of a table cell with a defined width, the text could extend beyond the browser window.
+Q38. Write an HTML table tag sequence that outputs the following:
+50 pcs 100 500
+10 pcs 5 50
+
+The HTML Code for the above problem is:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+	
+<table>
+<tr>
+<td>50 pcs</td>
+<td>100</td>
+<td>500</td>
+</tr>
+<tr>
+<td>10 pcs</td>
+<td>5</td>
+<td>50</td>
+</tr>
+</table>
+Q39. What is the advantage of grouping several checkboxes together?
+
+The checkboxes don’t affect one another. But, grouping these checkboxes together help to organize them. Checkbox buttons can have their name and do not need to belong to a group. A single web page can have many different groups of checkboxes.
+Q40. What happens if there is no text between the tags? Does this affect the display of the HTML file?
+
+If there is no text present between the tags, there is nothing to format. Therefore, no formatting will appear. Some tags, such as the tags without a closing tag like the <img> tag, do not require any text between them.
+Q41. What are the limits of the text field size?
+
+The default size for a text field is around 13 characters. However, if you include the size attribute, you can set the size value to be as low as 1. The maximum size value will be determined by the browser width. Also, if the size attribute is set to 0, the size will be set to the default size of 13 characters.
+Q42. What is the relationship between the border and rule attributes?
+
+Default cell borders, with a thickness of 1 pixel, are automatically added between cells if the border attribute is set to a nonzero value. Similarly, If the border attribute is not included, a default 1-pixel border appears when the rules attribute is added to the <table> tag.
+Q43. What is SVG?
+
+HTML SVG is used to describe the two-dimensional vector and vector or raster graphics. SVG images and their behaviors are defined in XML text files. So as XML files, you can create and edit an SVG image with the text editor. It is mostly used for vector type diagrams like pie charts, 2-Dimensional graphs in an X, Y coordinate system.
+1
+2
+3
+	
+<svg width="100" height="100">
+<circle cx="50" cy="50" r="40" stroke="yellow" stroke-width="4" fill="red" />
+</svg>
+Q44. What is button tag?
+
+The button tag is used in HTML 5. It is used to create a clickable button within the HTML form on the web page. This tag creates a “submit” or “reset” button. The button tag code is as follows:
+1
+	
+<button name="button" type="button">Click Here</button>
+Q45. List the media types and formats supported by HTML.
+
+HTML supports a wide range of media formats for sound, music, videos, movies, and animations. Some of the extensions supported by each media format are:
+
+    Images– png, jpg, jpeg, gif, apng, svg, bmp, BMP ico, png ico
+    Audio– MIDI, RealAudio, WMA, AAC, WAV, Ogg, MP3, MP4
+    Video– MPEG, AVI, WMV, QuickTime, RealVideo, Flash, Ogg, WebM, MPEG-4 or MP4
+
+Q46. What is Cell Spacing and Cell Padding?
+
+Cell Spacing is referred to as the space or gap between the two cells of the same table. Whereas, Cell Padding is referred to as the gap or space between the content of the cell and cell wall or cell border.
+
+Example:
+1
+2
+3
+	
+<table border cellspacing=3>
+<table border cellpadding=3>
+<table border cellspacing=3 cellpadding=3>
+Q47. What is difference between HTML and XHTML?
+
+The differences between HTML and XHTML are:
+
+    HTML is an application of Standard Generalized Markup Language. Whereas, XML is an application of Extensible Markup Language.
+    The first one is a static Web Page whereas the later one is a dynamic Web Page.
+    HTML allows programmer to perform changes in the tags and use attribute minimization whereas XHTML when user need a new markup tag then user can define it in this.
+    HTML is about displaying information whereas XHTML is about describing the information.
+
+Q48. How many types of CSS can be included in HTML?
+
+There are three ways to include the CSS with HTML:
+
+    Inline CSS: It is used for styling small contexts. To use inline styles add the style attribute in the relevant tag.
+    External Style Sheet: This is used when the style is applied to many pages. Each page must link to the style sheet using the <link> tag. The <link> tag goes inside the head section.
+
+1
+2
+3
+	
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css" />
+</head>
+
+    Internal Style Sheet: It is used when a single document has a unique style. Internal styles sheet needs to put in the head section of an HTML page, by using the <style> tag in the following way:
+
+1
+2
+3
+4
+5
+6
+7
+	
+<head>
+<style type="text/css">
+hr {color:sienna}
+p {margin-left:20px}
+body {background-image:url("images/back40.gif")}
+</style>
+</head>
+Q49. What are logical and physical tags in HTML?
+
+Logical tags are used to tell the meaning of the enclosed text. The example of the logical tag is <strong> </strong> tag. When we enclose the text in the strong tag, it tells the browser that enclosed text is more important than other texts.
+
+Physical tags are used to tell the browser how to display the text enclosed in the physical tag. Some of the examples of physical tags are <b>, <big>, <i>.
+Q50. How can you apply JavaScript to a web page?
+
+In order to make your webpage more interactive, you need JavaScript. It is a scripting language that allows you to interact with certain elements on the page, based on user input. As with CSS, there are three main ways of including JavaScript:
+
+Inline
+
+Certain HTML elements allow you to execute a piece of JavaScript when a certain event occurs. For example, a button allows you to run a script when you click on it. These events are accessed through attributes and differ based on the events that are available on each element. Here is an example that shows an alert with a message when the user clicks on it:
+Course Curriculum
+Full Stack Web Developer Masters Program Course
+Weekday / Weekend Batches
+1
+	
+<button onclick= "alert('Click the Buton!');">Click me!</button>
+
+Script block
+
+it allows you to load the same script on multiple pages. As with the script block, you can load a JavaScript file from the <head> or <body>.
+1
+	
+<script src="my-code.js"></script>
+
+With this, we have come to the end of HTML interview questions blog. I Hope these HTML Interview Questions will help you in your interviews. In case you have attended any such interview in the recent past, do paste those interview questions in the comments section and we’ll answer them. You can also comment below if you have any questions in your mind, which you might face in your Web Development interview.
+
+Check out our Full Stack Web Developer Masters Program which comes with instructor-led live training and real-life project experience. This training makes you proficient in skills to work with back-end and front-end web technologies. It includes training on Web Development, jQuery, Angular, NodeJS, ExpressJS, and MongoDB.
+
+Got a question for us? Please mention it in the comments section of “HTML Interview Questions” blog and we will get back to you.
+Recommended videos for you
+service-oriented-architecture-with-java.jpg
+Service-Oriented Architecture With Java
+responsive-web-app-using-cakephp.jpg
+Responsive WEB APP using cakePHP
+implementing-web-services-in-java.jpg
+Implementing Web Services In Java
+php-mysql-server-side-scripting-language-for-web-development.jpg
+PHP & MySQL : Server-side Scripting Language for Web Development
+mastering-regex-in-perl.jpg
+Mastering Regex in Perl
+learn-perl-the-jewel-of-scripting-languages.jpg
+Learn Perl-the Jewel of Scripting Languages
+portal-development-and-text-searching-with-hibernate.jpg
+Portal Development and Text Searching with Hibernate
+effective-persistence-using-orm-with-hibernate.jpg
+Effective Persistence Using ORM With Hibernate
+building-application-with-ruby-on-rails-framework.jpg
+Building Application With Ruby On Rails Framework
+hibernate-the-ultimate-orm-framework.jpg
+Hibernate-the ultimate ORM framework
+node-js-express-steps-to-create-restful-web-app.jpg
+Node JS Express: Steps to Create Restful Web App
+php-and-mysql-server-side-scripting-for-web-development.jpg
+PHP and MySQL : Server Side Scripting For Web Development
+microsoft-net-framework-an-intellisense-way-of-web-development.jpg
+Microsoft .NET Framework : An IntelliSense Way of Web Development
+ms-net-an-intellisense-way-of-web-development.jpg
+MS .Net – An IntelliSense Way of Web Development
+microsoft-sharepoint-2013-the-ultimate-enterprise-collaboration-platform.jpg
+Microsoft SharePoint 2013 : The Ultimate Enterprise Collaboration Platform
+microsoft-sharepoint-the-ultimate-enterprise-collaboration-platform.jpg
+Microsoft SharePoint-The Ultimate Enterprise Collaboration Platform
+node-js-steps-to-create-restful-web-app.jpg
+Node JS : Steps to Create Restful Web App
+create-restful-web-application-with-node-js-express.jpg
+Create Restful Web Application With Node.js Express
+building-web-application-using-spring-framework.jpg
+Building Web Application Using Spring Framework
+
+1) What is HTML?
+
+HTML is short for HyperText Markup Language and is the language of the World Wide Web. It is the standard text formatting language used for creating and displaying pages on the Web. HTML documents are made up of two things: the content and the tags that format it for proper display on pages.
+
+2) What are tags?
+
+Content is placed in between HTML tags in order to properly format it. It makes use of the less than symbol (<) and the greater than symbol (>). A slash symbol is also used as a closing tag. For example:
+
+<strong>sample</strong>
+
+ 
+
+3) Do all HTML tags come in a pair?
+
+No, there are single HTML tags that do not need a closing tag. Examples are the <img> tag and <br> tags.
+
+4) What are some of the common lists that can be used when designing a page?
+
+You can insert any or a combination of the following list types:
+– ordered list
+– unordered list
+– definition list
+– menu list
+– directory list
+Each of this list types makes use of a different tag set to compose
+
+5) How do you insert a comment in HTML?
+
+html interview Questions
+
+Comments in HTML begins with “<!–“nd ends with “–>”. For example:
+
+<!-- A SAMPLE COMMENT -->
+
+ 
+
+6) Do all character entities display properly on all systems?
+
+No, there are some character entities that cannot be displayed when the operating system that the browser is running on does not support the characters. When that happens, these characters are displayed as boxes.
+
+7) What is an image map?
+
+Image map lets you link to many different web pages using a single image. You can define shapes in images that you want to make part of an image mapping.
+
+8 ) What is the advantage of collapsing white space?
+
+White spaces are a blank sequence of space characters, which is treated as a single space character in HTML. Because the browser collapses multiple spaces into a single space, you can indent lines of text without worrying about multiple spaces. This enables you to organize the HTML code into a much more readable format.
+
+9) Can attribute values be set to anything or are there specific values that they accept?
+
+Some attribute values can be set to only predefined values. Other attributes can accept any numerical value that represents the number of pixels for a size.
+
+10) How do you insert a copyright symbol on a browser page?
+
+To insert the copyright symbol, you need to type &copy; or & #169; in an HTML file.
+
+11) How do you create links to sections within the same page?
+
+Links can be created using the <a> tag, with referencing through the use of the number (#) symbol. For example, you can have one line as <a href=”#topmost”>BACK TO TOP</a>, which would result in the words “BACK TO TOP” appearing on the webpage and links to a bookmark named topmost. You then create a separate tag command like <a name=”topmost”> somewhere on the top of the same webpage so that the user will be linked to that spot when he clicked on “BACK TO TOP”.
+
+12) Is there any way to keep list elements straight in an HTML file?
+
+By using indents, you can keep the list elements straight. If you indent each subnested list in further than the parent list that contains it, you can at a glance determine the various lists and the elements that it contains.
+
+13) If you see a web address on a magazine, to which web page does it point?
+
+Every web page on the web can have a separate web address. Most of these addresses are relative to the top-most web page. The published web address that appears within magazines typically points this top-most page. From this top level page, you can access all other pages within the website.
+
+14) What is the use of alternative text in image mapping?
+
+When you use image maps, it can easily become confusing and difficult to determine which hotspots correspond to which links. Using alternative text lets, you put a descriptive text on each hotspot link.
+
+15) Do older HTML files work on newer browsers?
+
+Yes, older HTML files are compliant to the HTML standard. Most older files work on the newer browsers, though some features may not work.
+
+16) Does a hyperlink apply to text only?
+
+No, hyperlinks can be used in the text as well as images. That means you can convert an image into a link that will allow users to link to another page when clicked. Surround the image within the <a href=” “>…</a> tag combinations.
+
+17) If the user’s operating system does not support the needed character, how can the symbol be represented?
+
+In cases wherein their operating system does not support a particular character, it is still possible to display that character by showing it as an image instead.
+
+18) How do you change the number type in the middle of a list?
+
+The <li> tag includes two attributes – type and value. The type attribute can be used to change the numbering type for any list item. The value attribute can change the number index.
+
+19) What are style sheets?
+
+Style sheets enable you to build consistent, transportable, and well-defined style templates. These templates can be linked to several different web pages, making it easy to maintain and change the look and feel of all the web pages within site.
+
+20) State  bullet types available in HTML 
+
+With ordered lists, you can select to use some different list types including alphabetical and Roman numerals. The type attribute for unordered lists can be set to disc, square, or circle.
+
+21) How do you create multicolored text in a webpage?
+
+To create text with different colors, use the <font color=”color”>…</font> tags for every character that you want to apply color. You can use this tag combination as many times as needed, surrounding a single character or an entire word.
+
+22) Why are there both numerical and named character entity values?
+
+The numerical values are taken from the ASCII values for the various characters, but these can be difficult to remember. Because of this, named character entity values were created to make it easier for web page designers to use.
+
+23) Write an HTML table tag sequence that outputs the following:
+50 pcs 100 500
+10 pcs 5 50
+
+Answer:
+
+<table> 
+<tr> 
+<td>50 pcs</td> 
+<td>100</td> 
+<td>500</td> 
+</tr> 
+<tr> 
+<td>10 pcs</td> 
+<td>5</td> 
+<td>50</td> 
+</tr> 
+</table>
+
+24) What is the advantage of grouping several checkboxes together?
+
+Although checkboxes don’t affect one another, grouping checkboxes together help to organize them. Checkbox buttons can have their name and do not need to belong to a group. A single web page can have many different groups of checkboxes.
+
+25) What will happen if you overlap sets of tags?
+
+If two sets of HTML tags are overlapped, only the first tag will be recognized. You will find this problem when the text does not display properly on the browser screen.
+
+26) What are applets?
+
+Applets are small programs that can be embedded within web pages to perform some specific functionality, such as computations, animations, and information processing. Applets are written using the Java language.
+
+27) What if there is no text between the tags or if a text was omitted by mistake? Will it affect the display of the HTML file?
+
+If there is no text between the tags, then there is nothing to format. Therefore no formatting will appear. Some tags, especially tags without a closing tag like the <img> tag, do not require any text between them.
+
+28) Is it possible to set specific colors for table borders?
+
+You can specify a border color using style sheets, but the colors for a table that does not use style sheets will be the same as the text color.
+
+29) How do you create a link that will connect to another web page when clicked?
+
+To create hyperlinks, or links that connect to another web page, use the href tag. The general format for this is: <a href=”site”>text</a>
+Replace “site” with the actual page URL that is supposed to be linked to when the text is clicked.
+
+30) What other ways can be used to align images and wrap text?
+
+Tables can be used to position text and images. Another useful way to wrap text around an image is to use style sheets.
+
+31) Can a single text link point to two different web pages?
+
+No. The <a> tag can accept only a single href attribute, and it can point to only a single web page.
+
+32) What is the difference between the directory and menu lists and the unordered list?
+
+The key difference is that the directory and menu lists do not include attributes for changing the bullet style.
+
+33) Can you change the color of bullets?
+
+The bullet color is always the same as that of the first character in the list item. If you surround the <li> and the first character with a set of <font> tags with the color attribute set, the bullet color, and the first character will be a different color from the text.
+
+34) What are the limits of the text field size?
+
+The default size for a text field is around 13 characters. However, if you include the size attribute, you can set the size value to be as low as 1. The maximum size value will be determined by the browser width. If the size attribute is set to 0, the size will be set to the default size of 13 characters.
+
+35) Do <th> tags always need to come at the start of a row or column?
+
+Any <tr> tag can be changed to a <th> tag. This causes the text contained within the <th> tag to be displayed as bold in the browser. Although <th> tags are mainly used for headings, they do not need to be used exclusively for headings.
+
+36) What is the relationship between the border and rule attributes?
+
+Default cell borders, with a thickness of 1 pixel, are automatically added between cells if the border attribute is set to a nonzero value. Likewise, If the border attribute is not included, a default 1-pixel border appears if the rules attribute is added to the <table> tag.
+
+37) What is a marquee?
+
+A marquee allows you to put a scrolling text in a web page. To do this, place whatever text you want to appear scrolling within the <marquee> and </marquee> tags.
+
+38) How do you create text on a webpage that will allow you to send an email when clicked?
+
+To change text into a clickable link to send email, use the mailto command within the href tag. The format is as follows:
+
+<A HREF=”mailto:youremailaddress”>text to be clicked</A>
+
+ 
+
+39) Are <br> tags the only way to separate sections of text?
+
+No. The <br> tag is only one way to separate lines of text. Other tags, like the <p> tag and <blockquote> tag, also separate sections of text.
+
+40) Are there instances where the text will appear outside of the browser?
+
+By default, the text is wrapped to appear within the browser window. However, if the text is part of a table cell with a defined width, the text could extend beyond the browser window.
+
+41) How are active links different from normal links?
+
+The default color for normal and active links is blue. Some browsers recognize an active link when the mouse cursor is placed over that link; others recognize active links when the link has the focus. Those that don’t have a mouse cursor over that link is considered a normal link.
+
+42) Do style sheets limit the number of new style definitions that can be included within the brackets?
+
+Style sheets do not limit the number of style definitions that can be included within the brackets for a given selector. Every new style definition, however, must be separated from the others by a semicolon symbol.
+
+43) Can I specify fractional weight values such as 670 or 973 for font weight?
+
+Implementation largely depends on the browser, but the standard does not support fractional weight values. Acceptable values must end with two zeroes.
+
+44) What is the hierarchy that is being followed when it comes to style sheets?
+
+If a single selector includes three different style definitions, the definition that is closest to the actual tag takes precedence. Inline style takes priority over embedded style sheets, which takes priority over external style sheets.
+
+45) Can several selectors with class names be grouped together?
+
+You can define several selectors with the same style definition by separating them with commas. This same technique also works for selectors with class names.
+
+46) What happens if you open the external CSS file in a browser?
+
+When you try to open the external CSS file in a browser, the browser cannot open the file, because the file has a different extension. The only way to use an external CSS file is to reference it using <link/> tag within another HTML document.
+
+47) How do you make a picture into a background image of a web page?
+
+To do this, place a tag code after the </head> tag as follows:
+
+<body background = “image.gif”>
+
+Replace image.gif with the name of your image file. This will take the picture and make it the background image of your web page.
+
+48) What happens if the list-style-type property is used on a non-list element like a paragraph?
+
+If the list-style-type property is used on a non-list element like a paragraph, the property will be ignored and do not affect the paragraph.
+
+49) When is it appropriate to use frames?
+
+Frames can make navigating a site much easier. If the main links to the site are located in a frame that appears at the top or along the edge of the browser, the content for those links can be displayed in the remainder of the browser window.
+
+50) What happens if the number of values in the rows or cols attribute doesn’t add up to 100 percent?
+
+The browser sizes the frames relative to the total sum of the values. If the cols attribute is set to 100%, 200% the browser displays two vertical frames with the second being twice as big as the first.
+
+51) Which browsers support HTML5?
+
+The latest versions of Google Chrome, Apple Safari, Mozilla Firefox, and Opera all support most of the HTML5 features.
+
+52) Name two new tags included in the HTML 5
+
+<Video> and <Audio> are new tags which are included in HTML5 version. They are mainly used as a replacement for Flash, Silverlight, and similar technologies to play multimedia items.
+
+53) Do you know which are two semantic tags are included in HTML5 version?
+
+The <article> and <section> tags are two new tags that are included in HTML5. Articles can be composed of multiple sections that can have multiple articles. An article tag represents a full block of content which is a section of a bigger whole.
+
+54) What is <figure> in HTML5?
+
+This tag represents a piece of self-contained flow content. It is mostly used as a single unit as a reference the main flow of the document.
+
+55) What is the use of Canvas element?
+
+The canvas element helps to build charts, graphs, bypass Photoshop to create 2D images and place them directly into HTML5 code.
+
+56) What are the new FORM elements which are available in HTML5?
+
+The new Form elements in HTML5 offers much better functionality than the earlier versions.
+
+The tags given provided to carry out these functions are:
+
+1) <datalist> – This tag is use to specify a list of options for input controls.
+
+2) <keygen> – This tag represents a key-pair generator field.
+
+3) <output> – It represents the result of any scripting calculation.
+
+57) Tell me two benefits of HTML5 Web Storage
+Two main benefits of HTML5 Web Storage:
+
+    It can store up to 10 MB data which is certainly more than what cookies have.
+    Web storage data cannot be transferred with the HTTP request. It helps to increase the performance of the application.
+
+58) What are two types of Web Storage in HTML5?
+
+Two storage types of HTML5 are:
+
+Session Storage:
+
+It stores data of current session only. It means that the data stored in session storage clear automatically when the browser is closed.
+
+Local Storage:
+
+Local storage is another type of HTML5 Web Storage. In local storage, data is not deleted automatically when the current browser window is closed.
+
+59) What is the Application Cache in HTML5 and why it is used?
+
+The Application Cache concept means that a web application is cached. It can be accessible without the need for internet connection.
+
+Some advantages of Application Cache:
+
+    Offline browsing – Web users can also use the application when they are offline.
+    Speed – Cached resources load quicker
+    Reduce the server load – The web browser will only download updated resources from the server.
+
+60) Explain five new input types provided by HTML5 for forms?
+
+Following are the important, new data types offered by HTML5:
+
+    Date: It allows the user to select a date.
+    datetime-local: This input type allows the user to select a date and time without time zone.
+    datetime: This input type allows the user to select a date and time with time zone.
+    month: It enables the user to select a month and year
+    email: These input fields used to contain an e-mail address.
+
+Download PDF
+
+
+1. What is HTML?
+
+HTML stands for HyperText Markup Language and is the language of the internet. It is the standard text formatting language used for creating and displaying pages on the Internet
+
+HTML documents are made up of the elements and the tags that format it for proper display on pages.
+2. What are HTML tags?
+
+We use HTML tags for placing the elements in the proper and appropriate format. Tags use the symbols <, and > to set them apart from the HTML content.
+
+The HTML tags need not be closed always. For example, in the case of images, the closing tags are not required as <img> tag.
+3. What are HTML Attributes?
+
+Attributes are the properties that can be added to an HTML tag. These attributes change the way the tag behaves or is displayed. For example, a <img> tag has an src attribute, which you use to add the source from which the image should be displayed.
+
+We add attributes right after the name of the HTML tag, inside the brackets. We can only add the attributes to opening or self-closing tags, but never be in closing tags.
+4. What is a marquee in HTML?
+
+Marquee is used for scrolling text on a web page. It scrolls the image or text up, down, left, or right automatically. To apply for a marquee, you have to use </marquee> tags.
+5. How do you separate a section of texts in HTML?
+
+We separate a section of texts in HTML using the below tags:
+
+    <br> tag – It is used to separate the line of text. It breaks the current line and shifts the flow of the text to a new line.
+    <p> tag–This tag is used to write a paragraph of text.
+    <blockquote> tag–This tag is used to define large quoted sections.
+
+6. Define the list types in HTML?
+
+The list types in HTML are as below:
+
+    Ordered list–The ordered list uses <ol> tag and displays elements in a numbered format.
+    Unordered list–The unordered list uses <ul> tag and displays elements in a bulleted format.
+    Definition list–The definition list uses <dl>, <dt>, <dd> tags and displays elements in definition form like in a dictionary.
+
+7. How do you align list elements in an HTML file?
+
+We can align the list elements in an HTML file by using indents. If you indent each nested list in further than the parent list, you can easily align and determine the various lists and the elements that it contains.
+
+Full Stack Web Developer Course
+To become an expert in MEAN StackView Course
+Full Stack Web Developer Course
+
+8. Differentiate between an Ordered list and an Unordered list?
+
+An unordered list uses <ul> </ul> tags and each element of the list is written between <li> </li> tags. The list items are displayed as bullets rather than numbers.
+
+An ordered list uses <ol> </ol> tags and each element of the list is written between <li> </li> tags. The list items are displayed as numbers rather than bullet points.
+
+<!DOCTYPE html>
+
+<html>
+
+  <body>
+
+    <h2>HTML List Example</h2>
+
+    <ul>
+
+      <li>Coffee</li>
+
+      <li>Tea</li>
+
+      <li>Milk</li>
+
+    </ul>
+
+    <ol>
+
+      <li>Coffee</li>
+
+      <li>Tea</li>
+
+      <li>Milk</li>
+
+    </ol>
+
+  </body>
+
+</html>
+
+html-list-example-23.
+9. How do you display a table in an HTML webpage?
+
+The HTML <table> tag is used to display data in a tabular format. It is also used to manage the layout of the page, for example, header section, navigation bar, body content, footer section. Given below are the list of HTML tags used for displaying a table in an HTML webpage:
+
+Tag
+	
+
+Description
+
+<table>
+	
+
+It defines a table.
+
+<tr>
+	
+
+It defines a row in a table.
+
+<th>
+	
+
+It defines a header cell in a table.
+
+<td>
+	
+
+It defines a cell in a table.
+
+<caption>
+	
+
+It defines the table caption.
+
+<colgroup>
+	
+
+It specifies a group of one or more columns in a table for formatting.
+
+<col>
+	
+
+It is used with <colgroup> element to specify column properties for each column.
+
+<tbody>
+	
+
+It is used to group the body content in a table.
+
+<thead>
+	
+
+It is used to group the header content in a table.
+
+<tfooter>
+	
+
+It is used to group the footer content in a table.
+10. How would you display the given table on an HTML webpage?
+
+5 pcs
+	
+
+10
+	
+
+5
+
+1 pcs
+	
+
+50
+	
+
+5
+
+The HTML Code for the problem depicted above is:
+
+<table>
+
+  <tr>
+
+    <td>50 pcs</td>
+
+    <td>100</td>
+
+    <td>500</td>
+
+  </tr>
+
+  <tr>
+
+    <td>10 pcs</td>
+
+    <td>5</td>
+
+    <td>50</td>
+
+  </tr>
+
+</table>
+11. How do we insert a comment in HTML?
+
+We can insert a comment in HTML by beginning with a lesser than sign and ending with a greater than sign. For example, “<!-“ and “->.”
+12. How do you insert a copyright symbol in HTML?
+
+You can insert a copyright symbol by using &copy; or &#169; in an HTML file.
+13. What is white space in HTML?
+
+An empty sequence of space characters is called the white space in HTML. This white space is considered as a single space character in the HTML.
+
+White space helps the browser to merge multiple spaces into one single space, and so taking care of indentation becomes easier. White space helps in better organizing the content and tags, making them readable and easy to understand.
+14. How do you create links to different sections within the same HTML web page?
+
+We use the <a> tag, along with referencing through the use of the # symbol, to create several links to different sections within the same web page.
+15. How do you create a hyperlink in HTML?
+
+We use the anchor tag <a> to create a hyperlink in HTML that links one page to another page. The hyperlink can be added to images too. 
+16. Define an image map?
+
+An image map in HTML helps in linking with the different kinds of web pages using a single image. It can be used for defining shapes in the images that are made part of the image mapping process.
+17. Why do we use a style sheet in HTML?
+
+A style sheet helps in creating a well-defined template for an HTML webpage that is both consistent as well as portable. We can link a single style sheet template to various web pages, which makes it easier to maintain and change the look of the website.
+18. What is semantic HTML?
+
+Semantic HTML is a coding style. It is the use of HTML markup to reinforce the semantics or meaning of the content. 
+
+For example: In semantic HTML <b> </b> tag is not used for bold statement as well as <i> </i> tag is not used for italic. Instead of these we use <strong></strong> and <em></em> tags.
+
+Free Course: Programming Fundamentals
+Learn the Basics of ProgrammingEnroll Now
+Free Course: Programming Fundamentals
+
+19. What is SVG in HTML?
+
+HTML SVG is used to describe the vector or raster graphics. SVG images and their behaviors are defined in XML text files. 
+
+We mostly use it for vector type diagrams like pie charts, 2-Dimensional graphs in an X, Y coordinate system.
+
+<svg width="100" height="100">
+
+  <circle cx="50" cy="50" r="40" stroke="yellow" stroke-width="4" fill="red" />
+
+</svg>
+20. What would happen if there is no text between the HTML tags?
+
+There would be nothing to format if there is no text present between the tags. Therefore, nothing will appear on the screen. 
+
+Some tags, such as the tags without a closing tag like the <img> tag, do not require any text between them.
+21. How do you create nested web pages in HTML?
+
+Nested web pages basically mean a webpage within a webpage. We can create nested web pages in HTML using the built-in iframe tag. The HTML <iframe> tag defines an inline frame. For example:
+
+<!DOCTYPE html>
+
+<html>
+
+  <body>
+
+    <h2>HTML Iframes example</h2>
+
+    <p>
+
+      specify the size of the iframe using the height and width attributes:
+
+    </p>
+
+    <iframe src="https://simplilearn.com/" height="600" width="800"></iframe>
+
+  </body>
+
+</html>
+22. How do you add buttons in HTML?
+
+We can use the built-in Button tag in HTML to add buttons to an HTML web page.
+
+<!DOCTYPE html>
+
+<html>
+
+  <body>
+
+    <h2>HTML Button Tag Example</h2>
+
+    <button name="button" type="button">CLICK ME</button>
+
+  </body>
+
+</html>
+23. What are the different types of headings in HTML?
+
+There are six types of heading tags in HTML which are defined with the <h1> to <h6> tags. Each type of heading tag displays a different text size from another. <h1> is the largest heading tag and <h6> is the smallest. For example:
+
+<!DOCTYPE html>
+
+<html>
+
+  <body>
+
+    <h1>This is Heading 1</h1>
+
+    <h2>This is Heading 2</h2>
+
+    <h3>This is Heading 3</h3>
+
+    <h4>This is Heading 4</h4>
+
+    <h5>This is Heading 5</h5>
+
+    <h6>This is Heading 6</h6>
+
+  </body>
+
+</html>
+
+heading-html
+24. How do you insert an image in the HTML webpage?
+
+ You can insert an image in the HTML webpage by using the following code:
+
+<!DOCTYPE html>
+
+<html>
+
+  <body>
+
+    <h2>HTML Image Example</h2>
+
+    <img src="tulip.jpeg" />
+
+  </body>
+
+</html>
+25. What is the alt attribute in HTML?
+
+The alt attribute is used for displaying a text in place of an image whenever the image cannot be loaded due to any technical issue.
+
+<!DOCTYPE html>
+
+<html>
+
+  <body>
+
+    <h2>HTML Alt Example</h2>
+
+    <img src="tulip.jpeg" alt="Tulip Garden" />
+
+  </body>
+
+</html>
+26. How are hyperlinks inserted in the HTML webpage?
+
+ You can insert a hyperlink in the HTML webpage by using the following code:
+
+<!DOCTYPE html>
+
+<html>
+
+  <body>
+
+    <h2>HTML Hyperlink Example</h2>
+
+    <a href="url">link text</a>
+
+  </body>
+
+</html>
+27. How do you add colour to the text in HTML?
+
+ You can add colour to the text in HTML by using the following code:
+
+<!DOCTYPE html>
+
+<html>
+
+  <body>
+
+    <h2>HTML Color Text Example</h2>
+
+    <h1 style="color: Red">Hello HTML</h1>
+
+    <p style="color: Blue">Line 1</p>
+
+    <p style="color: Green">Line 2</p>
+
+  </body>
+
+</html>
+28. How do you add CSS styling in HTML?
+
+There are three ways to include the CSS with HTML:
+
+    Inline CSS: It is used when less amount of styling is needed or in cases where only a single element has to be styled. To use inline styles add the style attribute in the relevant tag.
+    External Style Sheet: This is used when the style is applied to many elements or HTML pages. Each page must link to the style sheet using the <link> tag:
+
+<head>
+
+  <link rel="stylesheet" type="text/css" href="mystyle.css" />
+
+</head>
+
+    Internal Style Sheet: It is used when a single HTML document has a unique style and several elements need to be styled to follow the format. Internal styles sheet is added in the head section of an HTML page, by using the <style> tag:
+
+<head>
+
+  <style type="text/css">
+
+    hr {
+
+      color: sienna;
+
+    }
+
+    p {
+
+      margin-left: 20px;
+
+    }
+
+    body {
+
+      background-image: url("images/back40.gif");
+
+    }
+
+  </style>
+
+</head>
+29. What hierarchy do the style sheets follow?
+
+If a single selector includes three different style definitions, the definition that is closest to the actual tag takes precedence. Inline style takes priority over embedded style sheets, which takes priority over external style sheets.
+30. How do you add JavaScript to an HTML webpage?
+
+JavaScript is used for making HTML web pages more interactive, and user-friendly. It is a scripting language that allows you to interact with certain elements on the page, based on user input. As with CSS, there are three major ways of including JavaScript:
+
+    Inline:
+
+You can add JavaScript to your HTML elements directly whenever a certain event occurs. We can add the JavaScript code using attributes of the HTML tags that support it. Here is an example that shows an alert with a message when the user clicks on it:
+
+<button onclick="alert('Click the Button!');">
+
+Click!
+
+</button>
+
+    Script block:
+
+You can define a script block anywhere on the HTML code, which will get executed as soon as the browser reaches that part of the document. This is why script blocks are usually added at the bottom of HTML documents.
+
+<html>
+
+  <script>
+
+    var x = 1;
+
+    var y = 2;
+
+    var result = x + y;
+
+    alert("X + Y is equal to " + result);
+
+  </script>
+
+</html>
+
+    External JavaScript file:
+
+You can also import the JavaScript code from a separate file and keep your HTML code clutter-free. This is especially useful if there is a large amount of scripting added to an HTML webpage.
+
+<html>
+
+  <script src="my-script.js"></script>
+
+</html>
+
+As you get prepared for your job interview, we hope that these HTML Interview Questions have provided more insight into what types of questions you are likely to come across.
+
+    Get skilled in HTML5 and CSS3 with the Full Stack Java Developer Master's Program. Click to check out the program details! 
+
+Get Ahead of the Curve and Master Programming Today
+
+Now that you are well-versed with the top HTML Interview Questions, you should be seeking out opportunities to gain the skills you need to leverage the immense popularity of software development and build a successful career in it. Well, you needn’t look any further. We have got your back! Our comprehensive Full Stack Developer Course, which will help you with the necessary skills and more that you need and help you become career-ready upon completion. 
+
+If you are looking for more information, do check out our YouTube video that further explains these HTML interview questions and answers, and helps you become more confident while appearing for the interview processes.
+
+Do you have any questions for us? Well, feel free to mention them in the comments section of this “Top 30 HTML Interview Questions’’ article. Our subject matter experts will review and answer them for you soon.

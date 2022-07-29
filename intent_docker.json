@@ -1,0 +1,382 @@
+
+{
+    "intents": [
+
+ 	    {
+            "tag":          "question_01",
+            "questions":    ["What is Docker?"],
+            "answers":      ["Docker is an open-source lightweight containerization technology. It has gained widespread popularity in the cloud and application packaging world. It allows you to automate the deployment of applications in lightweight and portable containers."]
+        },
+
+
+        {
+            "tag":          "question_02",
+            "questions":   ["What are the advantages of using Docker container?"],
+            "answers":    ["(1). Offers an efficient and easy initial set up. (2). Allows you to describe your application lifecycle in detail. (3)Simple configuration and interacts with Docker Compose. (4). Documentation provides every bit of information. "]
+        },
+
+
+        {
+            "tag":          "question_03",
+            "questions":   ["What are the important features of Docker?"],
+            "answers":    ["Easy Modeling,    Version control,     Placement/Affinity,     Application Agility,     Developer Productivity,     Operational Efficiencies"]
+        },
+
+        {
+            "tag":          "question_04",
+            "questions":    ["What are the main drawbacks of Docker?"],
+            "answers":      ["Doesn’t provide a storage option,     Offer a poor monitoring option.,     No automatic rescheduling of inactive Nodes,     Complicated automatic horizontal scaling set up"]
+        },
+
+
+        {
+            "tag":          "question_05",
+            "questions":   ["What is Docker image?"],
+            "answers":    ["The Docker image help to create Docker containers. You can create the Docker image with the build command. Due to this, it creates a container that starts when it begins to run. Every docker images are stored in the Docker registry."]
+        },
+
+
+        {
+            "tag":          "question_06",
+            "questions":   ["What is Docker Engine?"],
+            "answers":    ["Docker daemon or Docker engine represents the server. The docker daemon and the clients should be run on the same or remote host, which can communicate through command-line client binary and full RESTful API."]
+        },
+
+
+        {
+            "tag":          "question_07",
+            "questions":    ["types of registry"],
+            "answers":      ["Public Registry, Private Registry. "]
+        },
+
+
+        {
+            "tag":          "question_08",
+            "questions":   ["What command should you run to see all running container in Docker?"],
+            "answers":    ["$ docker ps"]
+        },
+
+
+        {
+            "tag":          "question_09",
+            "questions":   ["Write the command to stop the docker container"],
+            "answers":    ["$ sudo docker stop container name"]
+        },
+
+
+        {
+            "tag":          "question_10",
+            "questions":   ["What is the command to run the image as a container?"],
+            "answers":    ["$ sudo docker run -i -t alpine /bin/bash"]
+        },
+
+
+ 	{
+            "tag":          "question_11",
+            "questions":    ["What are the common instruction in Dockerfile?"],
+            "answers":      ["The common instruction in Dockerfile are: FROM, LABEL, RUN, and CMD."]
+        },
+
+
+        {
+            "tag":          "question_12",
+            "questions":   ["What is memory-swap flag?"],
+            "answers":    ["Memory-swap is a modified flag that only has meaning if- memory is also set. Swap allows the container to write express memory requirements to disk when the container has exhausted all the RAM which is available to it."]
+        },
+
+
+        {
+            "tag":          "question_13",
+            "questions":   ["Explain Docker Swarm?"],
+            "answers":    ["Docker Swarm is native gathering for docker which helps you to a group of Docker hosts into a single and virtual docker host. It offers the standard docker application program interface."]
+        },
+
+        {
+            "tag":          "question_14",
+            "questions":    ["How can you monitor the docker in production environments?"],
+            "answers":      ["Docker states and Docker Events are used to monitoring docker in the production environment."]
+        },
+
+
+        {
+            "tag":          "question_15",
+            "questions":   ["What the states of Docker container?"],
+            "answers":    ["Important states of Docker container are:(1). Running, (2). Paused, (3). Restarting.  (4) Exited"]
+        },
+
+
+        {
+            "tag":          "question_16",
+            "questions":   ["What is Docker hub?"],
+            "answers":    ["Docker hub is a cloud-based registry that which helps you to link to code repositories. It allows you to build, test, store your image in Docker cloud. You can also deploy the image to your host with the help of Docker hub."]
+        },
+
+
+        {
+            "tag":          "question_17",
+            "questions":    ["What is Virtualization?"],
+            "answers":      ["Virtualization is a method of logically dividing mainframes to allow multiple applications to run simultaneously."]
+        },
+
+
+        {
+            "tag":          "question_18",
+            "questions":   ["What is Hypervisor?"],
+            "answers":    ["The hypervisor allows you to create a virtual environment in which the guest virtual machines operate. It controls the guest systems and checks if the resources are allocated to the guests as necessary."]
+        },
+
+
+        {
+            "tag":          "question_19",
+            "questions":   ["Explain Docker object labels"],
+            "answers":    ["Docker object labels is a method for applying metadata to docker objects including, images, containers, volumes, network, swam nodes, and services."]
+        },
+
+        {
+            "tag":          "question_20",
+            "questions":   ["Write a Docker file to create and copy a directory and built it using python modules?"],
+            "answers":    ["FROM pyhton:2.7-slim,  WORKDIR /app,  COPY . /app,  docker build –tag"]
+        },
+
+
+ 	{
+            "tag":          "question_21",
+            "questions":    ["Where the docker volumes are stored"],
+            "answers":      ["You need to navigate:  /var/lib/docker/volumes"]
+        },
+
+
+        {
+            "tag":          "question_22",
+            "questions":   ["How does communication happen between Docker client and Docker Daemon?"],
+            "answers":    ["You can communicate between Docker client and Docker Daemon with the combination of Rest API, socket.IO, and TCP."]
+        },
+
+
+        {
+            "tag":          "question_23",
+            "questions":   ["What are the command to control Docker with Systemd?"],
+            "answers":    ["systemctl start/stop docker, service docker start/stop"]
+        },
+
+        {
+            "tag":          "question_24",
+            "questions":    ["How to use JSON instead of YAML compose file?"],
+            "answers":      ["docker-compose -f docker-compose.json up"]
+        },
+
+
+        {
+            "tag":          "question_25",
+            "questions":   ["What is the command you need to give to push the new image to Docker registry?"],
+            "answers":    ["docker push myorg/img"]
+        },
+
+
+        {
+            "tag":          "question_26",
+            "questions":   ["How to include code with copy/add or volumes?"],
+            "answers":    ["In docker file, we need to use COPY or ADD directive. This is useful to relocate code. However, we should use a volume if we want to make changes."]
+        },
+
+
+        {
+            "tag":          "question_27",
+            "questions":    ["Explain the process of scaling your Docker containers"],
+            "answers":      ["The Docker containers can be scaled to any level starting from a few hundred to even thousands or millions of containers. The only condition for this is that the containers need the memory and the OS at all times, and there should not be a constraint when the Docker is getting scaled."]
+        },
+
+
+        {
+            "tag":          "question_28",
+            "questions":   ["What is the method for creating a Docker container?"],
+            "answers":    ["docker run -t -i command name"]
+        },
+
+
+        {
+            "tag":          "question_29",
+            "questions":   ["What are the steps for the Docker container life cycle?"],
+            "answers":    ["Build, Pull, Run"]
+        },
+
+
+
+ 	{
+            "tag":          "question_30",
+            "questions":    ["How can you run multiple containers using a single service?"],
+            "answers":      ["By using docker-compose, you can run multiple containers using a single service. All docker-compose files uses yaml language."]
+        },
+
+ 	{
+            "tag":          "question_31",
+            "questions":    ["What is CNM?"],
+            "answers":      ["CNM stands for Container Networking Model. It is a standard or specification from Docker, Inc. that forms the basis of container networking in a Docker environment. This docker’s approach provides container networking with support for multiple network drivers."]
+        },
+
+
+        {
+            "tag":          "question_32",
+            "questions":   ["Does Docker offer support for IPV6?"],
+            "answers":    ["Yes, Docker provides support IPv6. IPv6 networking is supported only on Docker daemons runs on Linux hosts. However, if you want to enable IPv6 support in the Docker daemon, you need to modify /etc/docker/daemon.json and set the ipv6 key to true."]
+        },
+
+
+        {
+            "tag":          "question_33",
+            "questions":   ["Can you lose data when the container exits?"],
+            "answers":    ["No, any data that your application writes to disk get stored in container. The file system for the contain persists even after the container halts."]
+        },
+
+        {
+            "tag":          "question_34",
+            "questions":    ["What are a different kind of volume mount types available in Docker?"],
+            "answers":      ["Bind mounts- It can be stored anywhere on the host system"]
+        },
+
+
+        {
+            "tag":          "question_35",
+            "questions":   ["How to configure the default logging driver under Docker?"],
+            "answers":    ["To configure the Docker daemon to default to a specific logging driver. You need to set the value of log-driver to the name of the logging drive the daemon.jason.fie."]
+        },
+
+
+        {
+            "tag":          "question_36",
+            "questions":   ["Explain Docker Trusted Registry?"],
+            "answers":    ["Docker Trusted Registry is the enterprise-grade image storage toll for Docker. You should install it after your firewall so that you can securely manage the Docker images you use in your applications."]
+        },
+
+
+        {
+            "tag":          "question_37",
+            "questions":    ["What are Docker Namespaces?"],
+            "answers":      ["The Namespace in Docker is a technique which offers isolated workspaces called the Container. Namespaces also offer a layer of isolation for the Docker containers."]
+        },
+
+
+        {
+            "tag":          "question_38",
+            "questions":   ["What are the three components of Docker Architecture"],
+            "answers":    ["Client, Docker-Host, Registry"]
+        },
+
+
+        {
+            "tag":          "question_39",
+            "questions":   ["What is client?"],
+            "answers":    ["Docker provides Command Line Interface tools to the client to interact with Docker daemon."]
+        },
+
+
+
+
+ 	{
+            "tag":          "question_40",
+            "questions":    ["What is the purpose of Docker_Host?"],
+            "answers":      ["It contains container, images, and Docker daemon. It offers a complete environment to execute and run your application."]
+        },
+
+ 	{
+            "tag":          "question_41",
+            "questions":    ["How do I run multiple copies of Compose file on the same host?"],
+            "answers":      ["Compose uses the project name which allows you to create unique identifiers for all of a project’s containers and other resources. To run multiple copies of a project, set a custom project name using the -a command-line option or using COMPOSE_PROJECT_NAME environment variable."]
+        },
+
+
+        {
+            "tag":          "question_42",
+            "questions":   ["How to check for Docker Client and Docker Server version?"],
+            "answers":    ["$ docker version"]
+        },
+
+
+        {
+            "tag":          "question_43",
+            "questions":   ["How do you get the number of containers running, paused and stopped?"],
+            "answers":    ["$ docker info"]
+        },
+
+        {
+            "tag":          "question_44",
+            "questions":    ["If you vaguely remember the command and you’d like to confirm it, how will you get help on that particular command?"],
+            "answers":      ["$ docker --help,$ docker <command> --help"]
+        },
+
+
+        {
+            "tag":          "question_45",
+            "questions":   ["How to login into docker repository?"],
+            "answers":    ["$ docker login"]
+        },
+
+
+        {
+            "tag":          "question_46",
+            "questions":   ["If you wish to use a base image and make modifications or personalize it, how do you do that?"],
+            "answers":    ["$ docker pull <image_name>"]
+        },
+
+
+        {
+            "tag":          "question_47",
+            "questions":    ["How do you create a docker container from an image?"],
+            "answers":      ["$ docker run -it -d <image_name>"]
+        },
+
+
+        {
+            "tag":          "question_48",
+            "questions":    ["How do you list all the running containers?"],
+            "answers":      ["$ docker ps"]
+        },
+
+
+        {
+            "tag":          "question_49",
+            "questions":    ["Suppose you have 3 containers running and out of these, you wish to access one of them. How do you access a running container?"],
+            "answers":      ["$ docker exec -it <container id> bash"]
+        },
+
+
+ 	    {
+            "tag":          "question_50",
+            "questions":    ["How to start, stop and kill a container?"],
+            "answers":      ["$ docker start <container_id>"]
+        },
+
+ 	    {
+            "tag":          "question_51",
+            "questions":    ["stopping a running container:"],
+            "answers":      ["$ docker stop <container_id>"]
+        },
+
+
+        {
+            "tag":          "question_52",
+            "questions":   ["kill a container with the following command:"],
+            "answers":    ["$ docker kill <container_id>"]
+        },
+
+
+        {
+            "tag":          "question_53",
+            "questions":   ["Can you use a container, edit it, and update it? Also, how do you make it a new and store it on the local system?"],
+            "answers":     ["$ docker commit <conatainer id> <username/imagename>"]
+        },
+
+        {
+            "tag":          "question_54",
+            "questions":    ["Once you’ve worked with an image, how do you push it to docker hub?"],
+            "answers":      ["$ docker push <username/image name>"]
+        },
+
+
+        {
+            "tag":          "question_55",
+            "questions":   ["How to delete a stopped container?"],
+            "answers":     ["$ docker rm <container id>"]
+        }
+    ]
+}

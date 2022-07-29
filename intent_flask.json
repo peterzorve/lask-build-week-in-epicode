@@ -1,0 +1,344 @@
+
+{
+    "intents": [
+
+        {
+            "tag":          "greeting",
+            "questions":    ["Hi there", "How are you", "Hey", "Hey", "Hi", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "answers":      ["Hello", "Good to see you again", "Hi there, how can I help?", "Hi", "Hey", "You again"]
+        },
+
+
+        {
+            "tag":          "goodbye",
+            "questions"  :   ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "answers" :      ["See you!", "Have a nice day", "Bye! Come back again soon."]
+        },
+
+
+        {
+            "tag":          "thanks",
+            "questions"  :   ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "I am grateful"],
+            "answers" :      ["Welcome", "Thank you", "Happy to help!", "Any time!", "My pleasure", "Good to see you", "You're welcome"]
+        },
+
+ 
+        {
+            "tag":          "options",
+            "questions":    ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+            "answers":      ["I am like your virtual assistant, you can ask me any questions. If I know I will answer", "I can answer your questions related to machine learning or any general anser. Come on try me", "I can chat with you. Come on talk me buddy", "We both can chat and make each other happy"]
+        },
+        
+
+ 	    {
+            "tag":          "question_01",
+            "questions":    [   "What is Flask?", 
+                                "Meaning of Flask", 
+                                "Explain Flask", 
+                                "Flask"
+                            ],
+            "answers":      ["Flask is a web development framework created in Python language. This Framework is based on the robust foundation of Jinja2 templates engine and Werkzeug comprehensive WSGI web application library."]
+        },
+
+
+        {
+            "tag":          "question_02",
+            "questions":    [   "Is the Flask framework open source?",  
+                                "Flask open source", 
+                                "Is Flask open source", 
+                                "is Flask Free source"
+                            ],
+            "answers":      ["Yes, the Flask framework is open-source. The source code of the Flask framework is available here . It is released under the BSD-3 Clause “New” or “Revised” License."]
+        },
+
+
+
+        {
+            "tag":          "question_04",
+            "questions":    [   "How to add the mailing feature in the Flask Application?", 
+                                "How do we send email using flask"
+                            ],
+            "answers":      ["To send emails, we need to install the Flask-Mail flask extension using the below-given command."]
+        },
+
+
+        {
+            "tag":          "question_05",
+            "questions":    [   "What is WSGI?", 
+                                "Meaning of Flask WSGI", 
+                                "WSGI", 
+                                "What does WSGI stands for"
+                            ],
+            "answers":      ["WSGI stands for the Web Server Gateway Interface. It is a Python standard defined in PEP 3333. WSGI is pronounced as “Whiskey.” It is a specification that describes how a web server communicates with a web application."]
+        },
+
+
+        {
+            "tag":          "question_06",
+            "questions":    [   "Who created Flask?", "Who is the developer of Flask?",
+                                "Founder of Flask", 
+                                "Person founded flask", 
+                                "Who started flask"
+                            ],
+            "answers":      ["Armin Ronacher created the Flask framework. Flask was born out of April fool Joke in 2011."]
+        },
+
+
+        {
+            "tag":          "question_07",
+            "questions":    [   "Why do we use Flask?", 
+                                "what the the importance of flask",
+                                "Advantages of flask", "What type of Applications can we create with Flask?"
+                            ],
+            "answers":      ["Flask is used to create Web applications using Python programming language. Flask is a microframework that is also used for quick prototyping web and networking based applications."]
+        },
+
+
+        {
+            "tag":          "question_08",
+            "questions":     [  "How to install Flask on Linux?",
+                                "Installation of flask on Linux"
+                            ],
+            "answers":       ["On Linux, Flask can be installed using Python’s package manager, pip."]
+        },
+
+
+      
+
+        {
+            "tag":          "question_10",
+            "questions":    [   "How to change default host and port in Flask?", 
+                                "is it possible to change from default host to port", 
+                                "default host to port in flask"
+                            ],
+            "answers":          ["Flask default host and port can be changed by passing the values to host and port parameters while calling run method on the app."]
+        },
+
+
+ 	{
+            "tag":          "question_11",
+            "questions":    [   "How to use the Flask commands?",
+                                "flask commands line"
+                            ],
+            "answers":      ["As a result of the Flask installation, we also get access to a command-line application called Flask. There are various commands that we can use."]
+        },
+
+
+        {
+            "tag":          "question_12",
+            "questions":    [   "How to get query String in Flask?", 
+                                "query strings in flask"
+                            ],
+            "answers":      ["We can get the argument’s value using the request object in Flask."]
+        },
+
+
+        {
+            "tag":          "question_13",
+            "questions":    [   "How to get the user agent in Flask?",
+                                "user-agent in flask", 
+                                "What is a user agent in flask"
+                            ],
+            "answers":      ["We can use the request object to get the User-Agent in Flask."]
+        },
+
+        {
+            "tag":          "question_14",
+            "questions":    [   "How to use url_for in the Flask application?", 
+                                "purpose of url_for in flask", 
+                                "what is the url_for used for", 
+                                "What is the function of the url for"
+                            ],
+            "answers":      ["Flask’s url_for function helps in creating dynamic routes. We can make use of url_for in the Flask templates. We can call the view function with parameters and values to generate URLs."]
+        },
+
+
+        {
+            "tag":          "question_15",
+            "questions":    [   "How to create an Admin interface in Flask?", 
+                                "creating an admin interface in flask", "What is an admin interface in flask" 
+                            ],
+            "answers":      ["We can create an Admin interface in Flask using the Flask-Admin extension. It helps in grouping individual views together in classes. We can use the Flask-Appbuilder extension too. Flask-Appbuilder already comes with an Admin interface."]
+        },
+
+
+        {
+            "tag":          "question_16",
+            "questions":     ["How to integrate Twitter or Similar API with the Flask Application?", 
+                                "How do we integrate other social media in flask", 
+                                "Integration of facebok"
+                            ],
+            "answers":       ["To integrate with Flask, we can make use of a Flask extension called Flask-Social. It not only helps in authenticating users from Twitter but also other social platforms or accounts such as Facebook and Google. We need to use Flask-Social along with Flask-Security."]
+        },
+
+
+        {
+            "tag":          "question_17",
+            "questions":    [   "Why is Flask called a Microframework?", 
+                                "Why is flask refereed to as Microframework", 
+                                "Flask microframework"
+                            ],
+            "answers":      ["Flask is called a microframework because Flask only provides core features such as request, routing, and blueprints. For other features, such as Caching, ORM, forms, etc., we need to make use of Flask-Extensions."]
+        },
+
+
+        {
+            "tag":          "question_18",
+            "questions":    [   "What are the benefits of using the Flask framework?", 
+                                "Advantages of flask", 
+                                "Why is flask commonly used", 
+                                "What are the importance of flask"
+                            ],
+            "answers":          ["(1). It has an inbuilt development server. (2). It has vast third-party extensions. (3). It has a tiny API and can be quickly learned by a web developer. (4). It is WSGI compliant. (5). It supports Unicode. "]
+        },
+
+
+        {
+            "tag":          "question_19",
+            "questions":    [   "Is the SQLite database built-in Flask?", 
+                                "SQLite database", 
+                                "What is SQLite database build with"
+                            ],
+            "answers":      ["SQLite is in-built with Python. To use the database in Flask, we need not install any additional Flask-Extension. Inside the view, we can import SQLite and write SQL queries for interacting with the database."]
+        },
+
+        {
+            "tag":          "question_20",
+            "questions":    [   "What do you mean by template engines in the Flask framework?", 
+                                "What is template engines", 
+                                "template engines in the Flask framework?"
+                            ],
+            "answers":      ["A template is a file that contains two types of data, i.e., static and dynamic. Dynamic data in a template is populated during run time. Flask makes use of Jinja2 template engine to let developers create HTML templates with placeholders for dynamic data."]
+        },
+
+
+ 	{
+            "tag":          "question_21",
+            "questions":    ["What do you mean by Thread local object in Flask?"],
+            "answers":      ["In Flask, thread-safety has been provided out of the box. We can use objects such as current_app, g, and request without worrying about problems related to locking and concurrency. Moreover, we need not pass objects from methods to methods, and these objects are generally available within a valid request context."]
+        },
+
+
+        {
+            "tag":          "question_22",
+            "questions":       ["How to use a session in Flask?", "What is flask session used for", "What is flask-session"],
+            "answers":          ["Whenever we want to save some data between requests, then we make use of session objects in Flask. We can set and get data from the session object, as shown below."]
+        },
+
+
+        {
+            "tag":          "question_23",
+            "questions":       ["What is the g object in Flask? How does it differ from the session object?", "What does the g object mena in flask", "What is the g object", "g-object in flask"],
+            "answers":          ["Flask’s g object is used as a global namespace for holding any data during the application context. g object is not appropriate for storing the data between requests. The letter g, in a sense, stands for global."]
+        },
+
+        {
+            "tag":          "question_24",
+            "questions":    ["What is the application context in Flask?", "Aplication context in flask"],
+            "answers":      ["The application context in Flask relates to the idea of a complete request/response cycle. It keeps a track of application-level data during a request or a CLI command. We make use of g and current_app proxies to achieve the same."]
+        },
+
+
+        {
+            "tag":          "question_25",
+            "questions":       ["In what ways can you connect to a database in Flask?", "How do we connect to flask database", "How to access the flask database"],
+            "answers":          ["Flask works with most of the RDBMSs, such as PostgreSQL, SQLite, and MySQL. However, to connect with databases, we must make use of the Flask-SQLAlchemy extension."]
+        },
+
+
+        {
+            "tag":          "question_26",
+            "questions":       ["How to create a RESTful application in Flask?", "RESTful in flask", "flask restful"],
+            "answers":          ["Flask-API,     Flask-RESTful,     Flask-RESTX,     Connexion"]
+        },
+
+
+        {
+            "tag":          "question_27",
+            "questions":    ["How to debug a Flask Application?"],
+            "answers":      ["Flask comes with a development server, and the development server has a Debug Mode. The Debug mode can be set to true when we call the run method of the Flask Application object."]
+        },
+
+
+
+
+ 	    {
+            "tag":          "question_30",
+            "questions":    ["What is the stable version of Flask?", "Which flask version is better", "What is the most used flask version", "What flask version will you recommend"],
+            "answers":      ["The stable version of Flask is 0.12.2 and released on 16 May 2017"]
+        },
+
+ 	    {
+            "tag":          "question_31",
+            "questions":    ["How can we access sessions in Flask?", "How can we get the session in flask"],
+            "answers":      ["In Flask, a session allow us to remember information from one request to another. It uses a signed cookie so the user can look at the session contents. We can access session by using the secret key Flask.secret_key in the Flask framework."]
+        },
+
+
+
+        {
+            "tag":          "question_33",
+            "questions":       ["What is Flask Sijax?", "Define Flask Sijax", "Flask Sijax"],
+            "answers":          ["Flask Sijax is a Simple Ajax & jQuery library. It is used to enable Ajax in web applications. It uses JSON to pass data between the server and the browser."]
+        },
+
+        {
+            "tag":          "question_34",
+            "questions":    ["What is the extension of Flask?", "how do we save flask file", "flask extension file"],
+            "answers":      ["The extension of Flask is .Py"]
+        },
+
+
+        {
+            "tag":          "question_35",
+            "questions":       ["What is the default port of Flask?", "What is the default host port and port of Flask?"],
+            "answers":          ["The default port of Flask is 5000 (localhost)"]
+        },
+
+
+
+        {
+            "tag":          "question_37",
+            "questions":    ["What are the HTTP methods in Flask?", "Name the HTTP methods", "How manu http methods are there", "What are the requests in dlask method"],
+            "answers":      ["GET, HEAD, POST, PUT, DELETE"]
+        },
+
+
+        {
+            "tag":          "question_38",
+            "questions":    ["What is the default route request in Flask?", "What is the default methodin flask", "which method is the default one in flask"],
+            "answers":      ["In Flask, GET is the default route request."]
+        },
+
+
+        {
+            "tag":          "question_39",
+            "questions":       ["What are the delimiters used in Jinga2 template?", "Name the delimiters in Jinja template", "Examples of the delimiters in Jinja2", "Jinga2 template"],
+            "answers":          ["{% ... %}: It is used for Statements,     {{ ... }}: It is used for Expressions to print to the template output,     {# ... #}: It is used for Comments not included in the template output,     # ... ## : It is used for Line Statements"]
+        },
+
+
+
+
+ 	{
+            "tag":          "question_40",
+            "questions":    ["What is the use redirect() function.", "What is the redirect() function used for", "When do we use the redirect function", "redirect function"],
+            "answers":      ["Redirect() function is used to display the login page again when a login attempt fails."]
+        },
+
+ 	{
+            "tag":          "question_41",
+            "questions":    ["What are the error codes in Flask?", "Which port carries the error message in flask", "Example of error ports", "Error code in flask"],
+            "answers":      ["400 âˆ’ - 429 âˆ’"]
+        },
+
+
+        {
+            "tag":          "question_42",
+            "questions":     ["What is ORM?", "What does ORM stand for", "Meaning of ORM", "What is ORM", "ORM"],
+            "answers":          ["ORM stands for Object Relation Mapping. It is a technique of mapping object parameter."]
+        }
+
+		
+    ]
+}
